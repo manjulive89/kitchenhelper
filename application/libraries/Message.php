@@ -84,6 +84,7 @@
 	  public function setSeen($seen){
 		  $this->seen = $seen;
 		  }
+
 	  //getter
 	  /**
 	   * @return User
@@ -135,6 +136,11 @@
 			$this->setTitle($mesg[0]->title);
 			$this->setMessage($mesg[0]->message);
 			$user = new User();
+			//if sender is NULL its an anoyme post!
+			if($mesg[0]->sender == null OR $mesg[0]->sender == 0){
+				$user->setAnonyme(true);
+			}
+			
 			$this->setSender($user->create($mesg[0]->sender));
 			$this->setDate($mesg[0]->date);
 			$this->setSeen($mesg[0]->seen);

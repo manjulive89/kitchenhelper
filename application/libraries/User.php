@@ -55,6 +55,11 @@ class User extends ContainerObject{
 	 * @var boolean 
 	 **/
 	protected $removed;
+	/**
+	* Is message Anonyme or not. Default is false
+	* @var boolean
+	**/
+	protected $anonyme = false;
 	//setter
 	/**
 	 * @param string $surname
@@ -96,6 +101,12 @@ class User extends ContainerObject{
 				}
 		$this->removed = $remove;
 		}
+		  /*
+	   * @param boolean $condition
+	   **/
+	  public function setAnonyme($condition){
+			 $this->anonyme = $condition;
+		  }
 	//get
 	/**
 	 * @return string
@@ -152,6 +163,12 @@ class User extends ContainerObject{
 				}
 		return $this->removed;
 		}
+		  /**
+	   * @return boolean
+	   **/
+	  public function isAnonyme(){
+		  return $this->anonyme;
+		  }
 	//other methodes:
 	/**
 	 * Adds a new diet to the self::$diet array
@@ -181,31 +198,45 @@ class User extends ContainerObject{
 	 * Is the optinal array for a diffrent where @see ContainerObject::get()
 	 **/
 	public function  create($id,$field = "id",$option = null){
-		//get
-		if(!is_array($option)){
-			$user = $this->get($id,$field);
-		}else{
-			$user = $this->get(null,$option);
-			}
-		if(!is_null($user) AND count($user) == 1){
-			$this->setID($user[0]->id);
-			$this->setName($user[0]->name);
-			$this->setSurname($user[0]->surname);
-			$this->setRole($user[0]->role);
-			$this->setEmail($user[0]->email);
-			$this->setRemoved($user[0]->removed);
-			$group = new Group();
-			$group->create($user[0]->group);
-			$this->setGroup($group);
-			//dietaries:
-			$this->CI->load->database();
-			$db = $this->CI->db;
-			foreach($db->where("uID",$this->getID())->get("userdietaries")->result() as $d){
-				$diet = new Diet();
-				$diet->create($d->dID);
-				$this->addDiet($diet);
+		//check if isAnonyme
+		if(!$this->isAnonyme()){
+			//get
+			if(!is_array($option)){
+				$user = $this->get($id,$field);
+			}else{
+				$user = $this->get(null,$option);
 				}
-			}
+			if(!is_null($user) AND count($user) == 1){
+				$this->setID($user[0]->id);
+				$this->setName($user[0]->name);
+				$this->setSurname($user[0]->surname);
+				$this->setRole($user[0]->role);
+				$this->setEmail($user[0]->email);
+				$this->setRemoved($user[0]->removed);
+				$group = new Group();
+				$group->create($user[0]->group);
+				$this->setGroup($group);
+				//dietaries:
+				$this->CI->load->database();
+				$db = $this->CI->db;
+				foreach($db->where("uID",$this->getID())->get("userdietaries")->result() as $d){
+					$diet = new Diet();
+					$diet->create($d->dID);
+					$this->addDiet($diet);
+					}
+				}
+		 }else{
+			 //create Anynome user:
+			 $this->setID(0);
+				$this->setName("Anonymous");
+				$this->setSurname("Surname");
+				$this->setRole(0);
+				$this->setEmail("none");
+				$this->setRemoved(0);
+				$group = new Group();
+				$group->create(1);//@Todo: default group has ID 1 @make this flexible
+				$this->setGroup($group);
+			 }
 		return $this;
 		}
 		/**

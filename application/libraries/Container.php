@@ -440,9 +440,12 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 			 }else{
 				 if($options != null){
 					 $query = $db->select("id")->where($options);
-					}else{
+					 //bug fix:$field == null
+					}else if($field != null){
 						$query = $db->select("id")->where($field,$id);
-					}
+					}else{
+						$query = $db->select("id");
+						}
 				 }
 			if(is_array($order)){
 				$query->order_by($order[0],$order[1]);

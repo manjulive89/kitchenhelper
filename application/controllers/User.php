@@ -55,7 +55,8 @@ class User extends CI_Controller{
 	if($type == "frontend"){
 	$password = $this->input->post("password");
 	$submit = $this->input->post("login_groups");
-	
+	//bug fix: for localhost/groupmanagment
+	$login = false;
 	if($submit !== null){
 		if( password_verify ($password, $this->einstellungen->get("password")->content)){
 			$login = true;

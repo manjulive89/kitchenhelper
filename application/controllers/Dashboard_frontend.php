@@ -89,8 +89,8 @@ class Dashboard_frontend extends CI_Controller{
                 {
 					$this->einstellungen->set("error",validation_errors());
 				}else{
-					$this->load->model("update");
-					$this->update->sendMessages();
+					$this->load->model("updates");
+					$this->updates->sendMessages();
 					$this->einstellungen->set("error",true);
 					}
 		$data = $this->einstellungen->load();//load actual settings
