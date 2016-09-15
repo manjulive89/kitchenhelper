@@ -16987,3 +16987,3212 @@ DEBUG - 2016-09-15 21:14:46 --> Container class already loaded. Second attempt i
 INFO - 2016-09-15 21:14:46 --> Model Class Initialized
 INFO - 2016-09-15 21:14:46 --> Final output sent to browser
 DEBUG - 2016-09-15 21:14:46 --> Total execution time: 0.0275
+INFO - 2016-09-15 22:30:22 --> Config Class Initialized
+INFO - 2016-09-15 22:30:22 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:30:22 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:30:22 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:30:22 --> URI Class Initialized
+DEBUG - 2016-09-15 22:30:22 --> No URI present. Default controller set.
+INFO - 2016-09-15 22:30:22 --> Router Class Initialized
+INFO - 2016-09-15 22:30:22 --> Output Class Initialized
+INFO - 2016-09-15 22:30:22 --> Security Class Initialized
+DEBUG - 2016-09-15 22:30:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:30:22 --> Input Class Initialized
+INFO - 2016-09-15 22:30:22 --> Language Class Initialized
+INFO - 2016-09-15 22:30:22 --> Loader Class Initialized
+INFO - 2016-09-15 22:30:22 --> Controller Class Initialized
+INFO - 2016-09-15 22:30:22 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:30:22 --> Model Class Initialized
+INFO - 2016-09-15 22:30:22 --> File loaded: /srv/www/htdocs/outwardbound/application/views/frontend_head.php
+INFO - 2016-09-15 22:30:22 --> File loaded: /srv/www/htdocs/outwardbound/application/views/dashboard_frontend.php
+INFO - 2016-09-15 22:30:22 --> File loaded: /srv/www/htdocs/outwardbound/application/views/frontend_bottom.php
+INFO - 2016-09-15 22:30:22 --> Final output sent to browser
+DEBUG - 2016-09-15 22:30:22 --> Total execution time: 0.0158
+INFO - 2016-09-15 22:30:41 --> Config Class Initialized
+INFO - 2016-09-15 22:30:41 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:30:41 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:30:41 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:30:41 --> URI Class Initialized
+INFO - 2016-09-15 22:30:41 --> Router Class Initialized
+INFO - 2016-09-15 22:30:41 --> Output Class Initialized
+INFO - 2016-09-15 22:30:41 --> Security Class Initialized
+DEBUG - 2016-09-15 22:30:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:30:41 --> Input Class Initialized
+INFO - 2016-09-15 22:30:41 --> Language Class Initialized
+INFO - 2016-09-15 22:30:41 --> Loader Class Initialized
+INFO - 2016-09-15 22:30:41 --> Controller Class Initialized
+INFO - 2016-09-15 22:30:41 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:30:41 --> Model Class Initialized
+INFO - 2016-09-15 22:30:41 --> Model Class Initialized
+INFO - 2016-09-15 22:30:41 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 22:30:41 --> File loaded: /srv/www/htdocs/outwardbound/application/views/dashboard_backend.php
+INFO - 2016-09-15 22:30:41 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 22:30:41 --> Final output sent to browser
+DEBUG - 2016-09-15 22:30:41 --> Total execution time: 0.0231
+INFO - 2016-09-15 22:30:58 --> Config Class Initialized
+INFO - 2016-09-15 22:30:58 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:30:58 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:30:58 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:30:58 --> URI Class Initialized
+INFO - 2016-09-15 22:30:58 --> Router Class Initialized
+INFO - 2016-09-15 22:30:58 --> Output Class Initialized
+INFO - 2016-09-15 22:30:58 --> Security Class Initialized
+DEBUG - 2016-09-15 22:30:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:30:58 --> Input Class Initialized
+INFO - 2016-09-15 22:30:58 --> Language Class Initialized
+INFO - 2016-09-15 22:30:58 --> Loader Class Initialized
+INFO - 2016-09-15 22:30:58 --> Controller Class Initialized
+INFO - 2016-09-15 22:30:58 --> Model Class Initialized
+INFO - 2016-09-15 22:30:58 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:30:58 --> Model Class Initialized
+INFO - 2016-09-15 22:30:58 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 22:30:58 --> File loaded: /srv/www/htdocs/outwardbound/application/views/groups.php
+INFO - 2016-09-15 22:30:58 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 22:30:58 --> Final output sent to browser
+DEBUG - 2016-09-15 22:30:58 --> Total execution time: 0.0231
+INFO - 2016-09-15 22:31:27 --> Config Class Initialized
+INFO - 2016-09-15 22:31:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:27 --> URI Class Initialized
+DEBUG - 2016-09-15 22:31:27 --> No URI present. Default controller set.
+INFO - 2016-09-15 22:31:27 --> Router Class Initialized
+INFO - 2016-09-15 22:31:27 --> Output Class Initialized
+INFO - 2016-09-15 22:31:27 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:27 --> Input Class Initialized
+INFO - 2016-09-15 22:31:27 --> Language Class Initialized
+INFO - 2016-09-15 22:31:27 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:27 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:27 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:27 --> Model Class Initialized
+INFO - 2016-09-15 22:31:27 --> File loaded: /srv/www/htdocs/outwardbound/application/views/frontend_head.php
+INFO - 2016-09-15 22:31:27 --> File loaded: /srv/www/htdocs/outwardbound/application/views/dashboard_frontend.php
+INFO - 2016-09-15 22:31:27 --> File loaded: /srv/www/htdocs/outwardbound/application/views/frontend_bottom.php
+INFO - 2016-09-15 22:31:27 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:27 --> Total execution time: 0.0170
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0182
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0272
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0334
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0225
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0212
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0208
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0231
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0191
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0206
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0238
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0155
+INFO - 2016-09-15 22:31:28 --> Config Class Initialized
+INFO - 2016-09-15 22:31:28 --> Hooks Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> UTF-8 Support Enabled
+INFO - 2016-09-15 22:31:28 --> Utf8 Class Initialized
+INFO - 2016-09-15 22:31:28 --> URI Class Initialized
+INFO - 2016-09-15 22:31:28 --> Router Class Initialized
+INFO - 2016-09-15 22:31:28 --> Output Class Initialized
+INFO - 2016-09-15 22:31:28 --> Security Class Initialized
+DEBUG - 2016-09-15 22:31:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 22:31:28 --> Input Class Initialized
+INFO - 2016-09-15 22:31:28 --> Language Class Initialized
+INFO - 2016-09-15 22:31:28 --> Loader Class Initialized
+INFO - 2016-09-15 22:31:28 --> Controller Class Initialized
+INFO - 2016-09-15 22:31:28 --> Model Class Initialized
+INFO - 2016-09-15 22:31:28 --> Database Driver Class Initialized
+INFO - 2016-09-15 22:31:28 --> Final output sent to browser
+DEBUG - 2016-09-15 22:31:28 --> Total execution time: 0.0214
+INFO - 2016-09-15 23:16:30 --> Config Class Initialized
+INFO - 2016-09-15 23:16:30 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:30 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:30 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:30 --> URI Class Initialized
+INFO - 2016-09-15 23:16:30 --> Router Class Initialized
+INFO - 2016-09-15 23:16:30 --> Output Class Initialized
+INFO - 2016-09-15 23:16:30 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:30 --> Input Class Initialized
+INFO - 2016-09-15 23:16:30 --> Language Class Initialized
+INFO - 2016-09-15 23:16:30 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:30 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:30 --> Model Class Initialized
+INFO - 2016-09-15 23:16:30 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:16:30 --> Model Class Initialized
+INFO - 2016-09-15 23:16:30 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 23:16:30 --> File loaded: /srv/www/htdocs/outwardbound/application/views/signoffsheet_backend.php
+INFO - 2016-09-15 23:16:30 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 23:16:30 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:30 --> Total execution time: 0.0227
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0357
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0336
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0274
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0269
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0265
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0208
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0223
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0240
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0227
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0267
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0213
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0266
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0228
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0211
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 23:16:31 --> File loaded: /srv/www/htdocs/outwardbound/application/views/mealplanner.php
+INFO - 2016-09-15 23:16:31 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0252
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0426
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0189
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0426
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0250
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0227
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0238
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0230
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0297
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0213
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0234
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:31 --> Total execution time: 0.0232
+INFO - 2016-09-15 23:16:31 --> Config Class Initialized
+INFO - 2016-09-15 23:16:31 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:31 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:31 --> URI Class Initialized
+INFO - 2016-09-15 23:16:31 --> Router Class Initialized
+INFO - 2016-09-15 23:16:31 --> Output Class Initialized
+INFO - 2016-09-15 23:16:31 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:31 --> Input Class Initialized
+INFO - 2016-09-15 23:16:31 --> Language Class Initialized
+INFO - 2016-09-15 23:16:31 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:31 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:31 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:31 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:31 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:32 --> Total execution time: 0.0266
+INFO - 2016-09-15 23:16:32 --> Config Class Initialized
+INFO - 2016-09-15 23:16:32 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:32 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:32 --> URI Class Initialized
+INFO - 2016-09-15 23:16:32 --> Router Class Initialized
+INFO - 2016-09-15 23:16:32 --> Output Class Initialized
+INFO - 2016-09-15 23:16:32 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:32 --> Input Class Initialized
+INFO - 2016-09-15 23:16:32 --> Language Class Initialized
+INFO - 2016-09-15 23:16:32 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:32 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:32 --> Total execution time: 0.0276
+INFO - 2016-09-15 23:16:32 --> Config Class Initialized
+INFO - 2016-09-15 23:16:32 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:32 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:32 --> URI Class Initialized
+INFO - 2016-09-15 23:16:32 --> Router Class Initialized
+INFO - 2016-09-15 23:16:32 --> Output Class Initialized
+INFO - 2016-09-15 23:16:32 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:32 --> Input Class Initialized
+INFO - 2016-09-15 23:16:32 --> Language Class Initialized
+INFO - 2016-09-15 23:16:32 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:32 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:32 --> Total execution time: 0.0205
+INFO - 2016-09-15 23:16:32 --> Config Class Initialized
+INFO - 2016-09-15 23:16:32 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:32 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:32 --> URI Class Initialized
+INFO - 2016-09-15 23:16:32 --> Router Class Initialized
+INFO - 2016-09-15 23:16:32 --> Output Class Initialized
+INFO - 2016-09-15 23:16:32 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:32 --> Input Class Initialized
+INFO - 2016-09-15 23:16:32 --> Language Class Initialized
+INFO - 2016-09-15 23:16:32 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:32 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:32 --> Total execution time: 0.0211
+INFO - 2016-09-15 23:16:32 --> Config Class Initialized
+INFO - 2016-09-15 23:16:32 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:32 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:32 --> URI Class Initialized
+INFO - 2016-09-15 23:16:32 --> Router Class Initialized
+INFO - 2016-09-15 23:16:32 --> Output Class Initialized
+INFO - 2016-09-15 23:16:32 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:32 --> Input Class Initialized
+INFO - 2016-09-15 23:16:32 --> Language Class Initialized
+INFO - 2016-09-15 23:16:32 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:32 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:32 --> Total execution time: 0.0224
+INFO - 2016-09-15 23:16:32 --> Config Class Initialized
+INFO - 2016-09-15 23:16:32 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:32 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:32 --> URI Class Initialized
+INFO - 2016-09-15 23:16:32 --> Router Class Initialized
+INFO - 2016-09-15 23:16:32 --> Output Class Initialized
+INFO - 2016-09-15 23:16:32 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:32 --> Input Class Initialized
+INFO - 2016-09-15 23:16:32 --> Language Class Initialized
+INFO - 2016-09-15 23:16:32 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:32 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:32 --> Total execution time: 0.0231
+INFO - 2016-09-15 23:16:32 --> Config Class Initialized
+INFO - 2016-09-15 23:16:32 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:32 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:32 --> URI Class Initialized
+INFO - 2016-09-15 23:16:32 --> Router Class Initialized
+INFO - 2016-09-15 23:16:32 --> Output Class Initialized
+INFO - 2016-09-15 23:16:32 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:32 --> Input Class Initialized
+INFO - 2016-09-15 23:16:32 --> Language Class Initialized
+INFO - 2016-09-15 23:16:32 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:32 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:32 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:16:32 --> Model Class Initialized
+INFO - 2016-09-15 23:16:32 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:32 --> Total execution time: 0.0165
+INFO - 2016-09-15 23:16:50 --> Config Class Initialized
+INFO - 2016-09-15 23:16:50 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:50 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:50 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:50 --> URI Class Initialized
+INFO - 2016-09-15 23:16:50 --> Router Class Initialized
+INFO - 2016-09-15 23:16:50 --> Output Class Initialized
+INFO - 2016-09-15 23:16:50 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:50 --> Input Class Initialized
+INFO - 2016-09-15 23:16:50 --> Language Class Initialized
+ERROR - 2016-09-15 23:16:50 --> 404 Page Not Found: Backend/groupmanagment
+INFO - 2016-09-15 23:16:55 --> Config Class Initialized
+INFO - 2016-09-15 23:16:55 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:55 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:55 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:55 --> URI Class Initialized
+INFO - 2016-09-15 23:16:55 --> Router Class Initialized
+INFO - 2016-09-15 23:16:55 --> Output Class Initialized
+INFO - 2016-09-15 23:16:55 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:55 --> Input Class Initialized
+INFO - 2016-09-15 23:16:55 --> Language Class Initialized
+INFO - 2016-09-15 23:16:55 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:55 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:55 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:16:55 --> Model Class Initialized
+INFO - 2016-09-15 23:16:55 --> Model Class Initialized
+INFO - 2016-09-15 23:16:55 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 23:16:55 --> File loaded: /srv/www/htdocs/outwardbound/application/views/dashboard_backend.php
+INFO - 2016-09-15 23:16:55 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 23:16:55 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:55 --> Total execution time: 0.0226
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0266
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0217
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0322
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0329
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0215
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0279
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0233
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0211
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0199
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0256
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0199
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0173
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0214
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0209
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0200
+INFO - 2016-09-15 23:16:56 --> Config Class Initialized
+INFO - 2016-09-15 23:16:56 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:16:56 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:16:56 --> URI Class Initialized
+INFO - 2016-09-15 23:16:56 --> Router Class Initialized
+INFO - 2016-09-15 23:16:56 --> Output Class Initialized
+INFO - 2016-09-15 23:16:56 --> Security Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:16:56 --> Input Class Initialized
+INFO - 2016-09-15 23:16:56 --> Language Class Initialized
+INFO - 2016-09-15 23:16:56 --> Loader Class Initialized
+INFO - 2016-09-15 23:16:56 --> Controller Class Initialized
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:16:56 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:16:56 --> Model Class Initialized
+INFO - 2016-09-15 23:16:56 --> Final output sent to browser
+DEBUG - 2016-09-15 23:16:56 --> Total execution time: 0.0204
+INFO - 2016-09-15 23:17:12 --> Config Class Initialized
+INFO - 2016-09-15 23:17:12 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:12 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:12 --> URI Class Initialized
+INFO - 2016-09-15 23:17:12 --> Router Class Initialized
+INFO - 2016-09-15 23:17:12 --> Output Class Initialized
+INFO - 2016-09-15 23:17:12 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:12 --> Input Class Initialized
+INFO - 2016-09-15 23:17:12 --> Language Class Initialized
+INFO - 2016-09-15 23:17:12 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:12 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:12 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:12 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 23:17:12 --> File loaded: /srv/www/htdocs/outwardbound/application/views/messages_backend.php
+INFO - 2016-09-15 23:17:12 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 23:17:12 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:12 --> Total execution time: 0.0230
+INFO - 2016-09-15 23:17:12 --> Config Class Initialized
+INFO - 2016-09-15 23:17:12 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:12 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:12 --> URI Class Initialized
+INFO - 2016-09-15 23:17:12 --> Router Class Initialized
+INFO - 2016-09-15 23:17:12 --> Output Class Initialized
+INFO - 2016-09-15 23:17:12 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:12 --> Input Class Initialized
+INFO - 2016-09-15 23:17:12 --> Language Class Initialized
+INFO - 2016-09-15 23:17:12 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:12 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:12 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:12 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:12 --> Total execution time: 0.0275
+INFO - 2016-09-15 23:17:12 --> Config Class Initialized
+INFO - 2016-09-15 23:17:12 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:12 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:12 --> URI Class Initialized
+INFO - 2016-09-15 23:17:12 --> Router Class Initialized
+INFO - 2016-09-15 23:17:12 --> Output Class Initialized
+INFO - 2016-09-15 23:17:12 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:12 --> Input Class Initialized
+INFO - 2016-09-15 23:17:12 --> Language Class Initialized
+INFO - 2016-09-15 23:17:12 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:12 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:12 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:12 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:12 --> Total execution time: 0.0293
+INFO - 2016-09-15 23:17:12 --> Config Class Initialized
+INFO - 2016-09-15 23:17:12 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:12 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:12 --> URI Class Initialized
+INFO - 2016-09-15 23:17:12 --> Router Class Initialized
+INFO - 2016-09-15 23:17:12 --> Output Class Initialized
+INFO - 2016-09-15 23:17:12 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:12 --> Input Class Initialized
+INFO - 2016-09-15 23:17:12 --> Language Class Initialized
+INFO - 2016-09-15 23:17:12 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:12 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:12 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:12 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:12 --> Total execution time: 0.0254
+INFO - 2016-09-15 23:17:12 --> Config Class Initialized
+INFO - 2016-09-15 23:17:12 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:12 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:12 --> URI Class Initialized
+INFO - 2016-09-15 23:17:12 --> Router Class Initialized
+INFO - 2016-09-15 23:17:12 --> Output Class Initialized
+INFO - 2016-09-15 23:17:12 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:12 --> Input Class Initialized
+INFO - 2016-09-15 23:17:12 --> Language Class Initialized
+INFO - 2016-09-15 23:17:12 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:12 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:12 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:12 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:12 --> Total execution time: 0.0265
+INFO - 2016-09-15 23:17:12 --> Config Class Initialized
+INFO - 2016-09-15 23:17:12 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:12 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:12 --> URI Class Initialized
+INFO - 2016-09-15 23:17:12 --> Router Class Initialized
+INFO - 2016-09-15 23:17:12 --> Output Class Initialized
+INFO - 2016-09-15 23:17:12 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:12 --> Input Class Initialized
+INFO - 2016-09-15 23:17:12 --> Language Class Initialized
+INFO - 2016-09-15 23:17:12 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:12 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:12 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0278
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0204
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0224
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0235
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0218
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0202
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0168
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0227
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0200
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0200
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0222
+INFO - 2016-09-15 23:17:13 --> Config Class Initialized
+INFO - 2016-09-15 23:17:13 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:13 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:13 --> URI Class Initialized
+INFO - 2016-09-15 23:17:13 --> Router Class Initialized
+INFO - 2016-09-15 23:17:13 --> Output Class Initialized
+INFO - 2016-09-15 23:17:13 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:13 --> Input Class Initialized
+INFO - 2016-09-15 23:17:13 --> Language Class Initialized
+INFO - 2016-09-15 23:17:13 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:13 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:13 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:13 --> Model Class Initialized
+INFO - 2016-09-15 23:17:13 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:13 --> Total execution time: 0.0229
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 23:17:15 --> File loaded: /srv/www/htdocs/outwardbound/application/views/dashboard_backend.php
+INFO - 2016-09-15 23:17:15 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0227
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0442
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0275
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0215
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0297
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0261
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0231
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0226
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0315
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0209
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0257
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0224
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0206
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0218
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0245
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0225
+INFO - 2016-09-15 23:17:15 --> Config Class Initialized
+INFO - 2016-09-15 23:17:15 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:15 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:15 --> URI Class Initialized
+INFO - 2016-09-15 23:17:15 --> Router Class Initialized
+INFO - 2016-09-15 23:17:15 --> Output Class Initialized
+INFO - 2016-09-15 23:17:15 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:15 --> Input Class Initialized
+INFO - 2016-09-15 23:17:15 --> Language Class Initialized
+INFO - 2016-09-15 23:17:15 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:15 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:15 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:15 --> Model Class Initialized
+INFO - 2016-09-15 23:17:15 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:15 --> Total execution time: 0.0215
+INFO - 2016-09-15 23:17:26 --> Config Class Initialized
+INFO - 2016-09-15 23:17:26 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:26 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:26 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:26 --> URI Class Initialized
+INFO - 2016-09-15 23:17:26 --> Router Class Initialized
+INFO - 2016-09-15 23:17:26 --> Output Class Initialized
+INFO - 2016-09-15 23:17:26 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:26 --> Input Class Initialized
+INFO - 2016-09-15 23:17:26 --> Language Class Initialized
+INFO - 2016-09-15 23:17:26 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:26 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:26 --> Model Class Initialized
+INFO - 2016-09-15 23:17:26 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:26 --> Model Class Initialized
+INFO - 2016-09-15 23:17:26 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 23:17:26 --> File loaded: /srv/www/htdocs/outwardbound/application/views/groups.php
+INFO - 2016-09-15 23:17:26 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 23:17:26 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:26 --> Total execution time: 0.0222
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0268
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0284
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0213
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0244
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0220
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0223
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0226
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0251
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0199
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0232
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0212
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0202
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0151
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0215
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0255
+INFO - 2016-09-15 23:17:27 --> Config Class Initialized
+INFO - 2016-09-15 23:17:27 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:27 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:27 --> URI Class Initialized
+INFO - 2016-09-15 23:17:27 --> Router Class Initialized
+INFO - 2016-09-15 23:17:27 --> Output Class Initialized
+INFO - 2016-09-15 23:17:27 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:27 --> Input Class Initialized
+INFO - 2016-09-15 23:17:27 --> Language Class Initialized
+INFO - 2016-09-15 23:17:27 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:27 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:27 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:27 --> Model Class Initialized
+INFO - 2016-09-15 23:17:27 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:27 --> Total execution time: 0.0206
+INFO - 2016-09-15 23:17:38 --> Config Class Initialized
+INFO - 2016-09-15 23:17:38 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:38 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:38 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:38 --> URI Class Initialized
+INFO - 2016-09-15 23:17:38 --> Router Class Initialized
+INFO - 2016-09-15 23:17:38 --> Output Class Initialized
+INFO - 2016-09-15 23:17:38 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:38 --> Input Class Initialized
+INFO - 2016-09-15 23:17:38 --> Language Class Initialized
+INFO - 2016-09-15 23:17:38 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:38 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:38 --> Model Class Initialized
+INFO - 2016-09-15 23:17:38 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:38 --> Model Class Initialized
+ERROR - 2016-09-15 23:17:38 --> Severity: Notice --> Undefined variable: login /srv/www/htdocs/outwardbound/application/controllers/User.php 78
+ERROR - 2016-09-15 23:17:38 --> Severity: Notice --> Undefined variable: login /srv/www/htdocs/outwardbound/application/controllers/User.php 86
+INFO - 2016-09-15 23:17:38 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 23:17:38 --> File loaded: /srv/www/htdocs/outwardbound/application/views/groups.php
+ERROR - 2016-09-15 23:17:38 --> Severity: Notice --> Undefined variable: login /srv/www/htdocs/outwardbound/application/controllers/User.php 92
+INFO - 2016-09-15 23:17:38 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 23:17:38 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:38 --> Total execution time: 0.0230
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0482
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0223
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0249
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0238
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0221
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0228
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0218
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0223
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0243
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0356
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0222
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0198
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0198
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0252
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0201
+INFO - 2016-09-15 23:17:39 --> Config Class Initialized
+INFO - 2016-09-15 23:17:39 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:39 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:39 --> URI Class Initialized
+INFO - 2016-09-15 23:17:39 --> Router Class Initialized
+INFO - 2016-09-15 23:17:39 --> Output Class Initialized
+INFO - 2016-09-15 23:17:39 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:39 --> Input Class Initialized
+INFO - 2016-09-15 23:17:39 --> Language Class Initialized
+INFO - 2016-09-15 23:17:39 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:39 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:39 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:39 --> Model Class Initialized
+INFO - 2016-09-15 23:17:39 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:39 --> Total execution time: 0.0215
+INFO - 2016-09-15 23:17:46 --> Config Class Initialized
+INFO - 2016-09-15 23:17:46 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:46 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:46 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:46 --> URI Class Initialized
+INFO - 2016-09-15 23:17:46 --> Router Class Initialized
+INFO - 2016-09-15 23:17:46 --> Output Class Initialized
+INFO - 2016-09-15 23:17:46 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:46 --> Input Class Initialized
+INFO - 2016-09-15 23:17:46 --> Language Class Initialized
+INFO - 2016-09-15 23:17:46 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:46 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:46 --> Model Class Initialized
+INFO - 2016-09-15 23:17:46 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:46 --> Model Class Initialized
+INFO - 2016-09-15 23:17:46 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 23:17:46 --> File loaded: /srv/www/htdocs/outwardbound/application/views/groups.php
+INFO - 2016-09-15 23:17:46 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 23:17:46 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:46 --> Total execution time: 0.0237
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0424
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0302
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0208
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0215
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0217
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0237
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0208
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0205
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0217
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0205
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0180
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0258
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0208
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0207
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0201
+INFO - 2016-09-15 23:17:47 --> Config Class Initialized
+INFO - 2016-09-15 23:17:47 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:47 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:47 --> URI Class Initialized
+INFO - 2016-09-15 23:17:47 --> Router Class Initialized
+INFO - 2016-09-15 23:17:47 --> Output Class Initialized
+INFO - 2016-09-15 23:17:47 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:47 --> Input Class Initialized
+INFO - 2016-09-15 23:17:47 --> Language Class Initialized
+INFO - 2016-09-15 23:17:47 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:47 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:47 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:47 --> Model Class Initialized
+INFO - 2016-09-15 23:17:47 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:47 --> Total execution time: 0.0199
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_head.php
+INFO - 2016-09-15 23:17:53 --> File loaded: /srv/www/htdocs/outwardbound/application/views/dashboard_backend.php
+INFO - 2016-09-15 23:17:53 --> File loaded: /srv/www/htdocs/outwardbound/application/views/backend_bottom.php
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0223
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0535
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0289
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0219
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0205
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0336
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0240
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0224
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0208
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0207
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0198
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0236
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0257
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0208
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0207
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Container class already loaded. Second attempt ignored.
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0281
+INFO - 2016-09-15 23:17:53 --> Config Class Initialized
+INFO - 2016-09-15 23:17:53 --> Hooks Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> UTF-8 Support Enabled
+INFO - 2016-09-15 23:17:53 --> Utf8 Class Initialized
+INFO - 2016-09-15 23:17:53 --> URI Class Initialized
+INFO - 2016-09-15 23:17:53 --> Router Class Initialized
+INFO - 2016-09-15 23:17:53 --> Output Class Initialized
+INFO - 2016-09-15 23:17:53 --> Security Class Initialized
+DEBUG - 2016-09-15 23:17:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-15 23:17:53 --> Input Class Initialized
+INFO - 2016-09-15 23:17:53 --> Language Class Initialized
+INFO - 2016-09-15 23:17:53 --> Loader Class Initialized
+INFO - 2016-09-15 23:17:53 --> Controller Class Initialized
+INFO - 2016-09-15 23:17:53 --> Database Driver Class Initialized
+INFO - 2016-09-15 23:17:53 --> Model Class Initialized
+INFO - 2016-09-15 23:17:53 --> Final output sent to browser
+DEBUG - 2016-09-15 23:17:53 --> Total execution time: 0.0157
