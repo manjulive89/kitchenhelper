@@ -70,6 +70,7 @@ echo "\n\n
 Installation:";
 if($this->enter() == true){
 	$this->commit();
+	echo PHP_EOL.C_GREEN."Installation was succesfull".C_DEFAULT;
 	}
 }
 private function enter(){
