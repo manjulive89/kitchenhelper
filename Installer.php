@@ -70,7 +70,8 @@ echo "\n\n
 Installation:";
 if($this->enter() == true){
 	$this->commit();
-	echo PHP_EOL.C_GREEN."Installation was succesfull".C_DEFAULT;
+	echo PHP_EOL.C_GREEN."Installation was succesfull".C_DEFAULT.PHP_EOL;
+	$this->delete();
 	}
 }
 private function enter(){
@@ -331,6 +332,13 @@ private function ini_test(){
 			echo "FATAL ERROR: ".$mysqli->error." ... error ... exit! ".C_RED."[FAILED]".C_DEFAULT.PHP_EOL;
 			exit();
 			}
+		}
+	private function delete(){
+		@unlink(KI_CONFIG);
+		@unlink(KI_DB);
+		@unlink(KI_SQL);
+		@rmdir("install_data/")
+		@unlink(Installer.php);
 		}
 }
 
