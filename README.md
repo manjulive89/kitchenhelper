@@ -19,7 +19,7 @@ Makes use of:
 3. navigate via the terminal of your choice to the main folder `($ cd /srv/www/htdocs/)`
 4. make sure that: **/application/config/config.php** is writeable and readable for the current user. if not use [chmod](http://www.computerhope.com/unix/uchmod.htm) to change it (Under Linux)
 5. make sure that: **/application/config/database.php** is writeable and readable for the current user. if not use [chmod](http://www.computerhope.com/unix/uchmod.htm) to change it (Under Linux)
-6. type in the following command php Installer.php and follow the instructions.
+6. type in the following command `php Installer.php` and follow the instructions.
 7. after the installation assitent finished it will delete: **/install_data** and **Install.php** if not make sure they are deleted.
 
 **For further information how to install the KitchenHelper please check the wiki**
