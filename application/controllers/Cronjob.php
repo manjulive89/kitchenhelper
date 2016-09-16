@@ -139,6 +139,8 @@
 		  * It will reset: ticked, remove all removed = true user and it will clean up groups
 		  * 
 		  * The rest will only happen if in the settings table the field lastdbreset is an old year.
+		  * 
+		  * @todo: put everything in a zip
 		  **/
 		 public function cleanDB(){
 				$this->load->database();
@@ -167,6 +169,7 @@
 		 * this is the actual cleaning methode
 		 * 
 		 * Displays messages (logs)
+		 * @todo: put everything in a zip
 		 * 
 		 * @return void
 		 **/

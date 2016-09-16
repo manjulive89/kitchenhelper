@@ -18847,3 +18847,38 @@ DEBUG - 2016-09-16 07:57:24 --> Container class already loaded. Second attempt i
 INFO - 2016-09-16 07:57:24 --> Model Class Initialized
 INFO - 2016-09-16 07:57:24 --> Final output sent to browser
 DEBUG - 2016-09-16 07:57:24 --> Total execution time: 0.0214
+INFO - 2016-09-16 17:54:45 --> Config Class Initialized
+INFO - 2016-09-16 17:54:45 --> Hooks Class Initialized
+DEBUG - 2016-09-16 17:54:45 --> UTF-8 Support Enabled
+INFO - 2016-09-16 17:54:45 --> Utf8 Class Initialized
+INFO - 2016-09-16 17:54:45 --> URI Class Initialized
+INFO - 2016-09-16 17:54:45 --> Router Class Initialized
+INFO - 2016-09-16 17:54:45 --> Output Class Initialized
+INFO - 2016-09-16 17:54:45 --> Security Class Initialized
+DEBUG - 2016-09-16 17:54:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-16 17:54:45 --> Input Class Initialized
+INFO - 2016-09-16 17:54:45 --> Language Class Initialized
+INFO - 2016-09-16 17:54:45 --> Loader Class Initialized
+INFO - 2016-09-16 17:54:45 --> Controller Class Initialized
+INFO - 2016-09-16 17:54:45 --> Database Driver Class Initialized
+ERROR - 2016-09-16 17:54:45 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) /srv/www/htdocs/outwardbound/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2016-09-16 17:54:45 --> Unable to connect to the database
+INFO - 2016-09-16 18:21:39 --> Config Class Initialized
+INFO - 2016-09-16 18:21:39 --> Hooks Class Initialized
+DEBUG - 2016-09-16 18:21:39 --> UTF-8 Support Enabled
+INFO - 2016-09-16 18:21:39 --> Utf8 Class Initialized
+INFO - 2016-09-16 18:21:39 --> URI Class Initialized
+INFO - 2016-09-16 18:21:39 --> Router Class Initialized
+INFO - 2016-09-16 18:21:39 --> Output Class Initialized
+INFO - 2016-09-16 18:21:39 --> Security Class Initialized
+DEBUG - 2016-09-16 18:21:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2016-09-16 18:21:39 --> Input Class Initialized
+INFO - 2016-09-16 18:21:39 --> Language Class Initialized
+INFO - 2016-09-16 18:21:39 --> Loader Class Initialized
+INFO - 2016-09-16 18:21:39 --> Controller Class Initialized
+INFO - 2016-09-16 18:21:39 --> Helper loaded: form_helper
+INFO - 2016-09-16 18:21:39 --> Helper loaded: url_helper
+INFO - 2016-09-16 18:21:39 --> Form Validation Class Initialized
+INFO - 2016-09-16 18:21:39 --> Database Driver Class Initialized
+ERROR - 2016-09-16 18:21:39 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) /srv/www/htdocs/outwardbound/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2016-09-16 18:21:39 --> Unable to connect to the database

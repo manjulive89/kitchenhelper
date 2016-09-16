@@ -49,6 +49,8 @@
 	 private $surname = "Doe";
 	 private $email = "John@doe.tld";
 	 private $password = "password";
+	 private $database = null;
+	 private $pagename = "KitchenHelper Tool Version ".KI_VERSION;
 	 
 	 public function setup(){
 echo "
@@ -66,7 +68,9 @@ Initialization test:
 $this->ini_test();
 echo "\n\n
 Installation:";
-$this->enter();
+if($this->enter() == true){
+	$this->commit();
+	}
 }
 private function enter(){
 echo PHP_EOL."############Basic settings############";
@@ -78,6 +82,9 @@ $base_url = (strlen($entry_bU) != 0)? $entry_bU: $this->base_url;
 echo "\nPlease select language: (en/de):";
 $entry_lang = trim(fgets(STDIN));
 $lang = (strlen($entry_lang) != 0)? $entry_lang:$this->language;
+echo "\nPlease enter page name: (default: ".$this->pagename."):";
+$entry_pagename = trim(fgets(STDIN));
+$pagename = (strlen($entry_pagename) != 0)? $entry_password:$this->pagename;
 //mysql
 echo PHP_EOL."############Database infos############";
 echo "\nPlease enter the database hostname: (default: ".$this->hostname."):";
@@ -111,6 +118,7 @@ $password = (strlen($entry_password) != 0)? $entry_password:$this->password;
 echo PHP_EOL."############Basic settings############";
 echo PHP_EOL."base_url:".$base_url;
 echo PHP_EOL."lang:".$lang;
+echo PHP_EOL."page name:".$pagename;
 echo PHP_EOL."############Database infos############";
 echo PHP_EOL."hostname:".$hostname;
 echo PHP_EOL."database user:".$dbuser;
@@ -126,7 +134,7 @@ echo "\nAre your entries correct? (y/n)";
 $isCorrect = trim(fgets(STDIN));
 if($isCorrect === "n"){
 	//start again
-	$this->enter();
+	return $this->enter();
 	}else{
 		//save:
 		$this->base_url = $base_url;
@@ -140,8 +148,21 @@ if($isCorrect === "n"){
 		$this->surname = $surname;
 		$this->email = $email;
 		$this->password = $password;
-		$this->commit();
+		$this->pagename = $pagename;
+		//check if database data are right:
+		$dbCheck = new mysqli($hostname,$dbuser,$dbpassword,$db);
+		if($dbCheck->connect_error){
+			echo "checking database connection ... error:(".$dbCheck->connect_errno.") ".$dbCheck->connect_error." ".C_RED."[FAILED]".C_DEFAULT.PHP_EOL;
+			echo PHP_EOL."############Retry############";
+			return $this->enter();
+			}else{
+				$this->database = $dbCheck;
+				echo "checking database connection ... done ".C_GREEN."[OK]".C_DEFAULT.PHP_EOL;
+				return true;
+				}
+		return false;
 		}
+		return false;
 	}
 private function ini_test(){
 	if(php_sapi_name() === 'cli'){
@@ -150,7 +171,7 @@ private function ini_test(){
 		if($this->file("install_data",false)){
 				$this->file(KI_CONFIG);
 				$this->file(KI_DB);
-				$this->file(KI_SQL);
+				$this->file(KI_SQL,true,false,true,true);
 		}
 		}else{
 		echo C_RED."FATAL ERROR: PROGRAMM RUNS NOT IN CLI EXIT!".C_DEFAULT.PHP_EOL;
@@ -205,7 +226,7 @@ private function ini_test(){
 		$config = file_get_contents(KI_CONFIG);
 		$db = file_get_contents(KI_DB);
 		//safe cfg
-		file_put_contents(C_PATH,$this->find(
+		if( file_put_contents(C_PATH,$this->find(
 			array("[base_url]","[lang]","[encrypt_key]"),
 			array(
 			$this->base_url,
@@ -213,9 +234,14 @@ private function ini_test(){
 			$encrypt_key
 			),$config
 		)
-		);
+		) !== false){
+			echo "write config ".C_PATH." ... done ".C_GREEN."[OK]".C_DEFAULT.PHP_EOL;
+			}else{
+				echo "write config ".C_PATH." ... error ... exit()".C_RED."[FAILED]".C_DEFAULT.PHP_EOL;
+				exit();
+				}
 		//safe db
-		file_put_contents(DB_PATH,$this->find(
+		if(file_put_contents(DB_PATH,$this->find(
 			array(
 			"[hostname]",
 			"[dbuser]",
@@ -231,8 +257,15 @@ private function ini_test(){
 			$this->dbprefix
 			),$db
 		)
-		);
+		)!== false){
+			echo "write database config ".DB_PATH." ... done ".C_GREEN."[OK]".C_DEFAULT.PHP_EOL;
+			}else{
+				echo "write database config ".DB_PATH." ... error ... exit()".C_RED."[FAILED]".C_DEFAULT.PHP_EOL;
+				exit();
+				}
+		echo "########start filling database########".PHP_EOL;
 		//install MYSQL Data
+		$this->SQLImport();
 		}
 	private function find($search,$rep,$data){
 		for($x = 0;$x < count($search);$x++){
@@ -248,7 +281,56 @@ private function ini_test(){
 		return base64_encode($key);
 		}
 	private function SQLImport(){
+		$handle = @fopen(KI_SQL, "r");
+		if ($handle) {
+			$sql = "";
+			while (($buffer = fgets($handle, 4096)) !== false) {
+				if(preg_match("/(--)|(\/\*)/",$buffer)){
+					//echo $buffer;
+				}else{
+					$sql .= trim($buffer);
+					if(preg_match("/;/",$buffer)){
+						$this->executeSQL($sql);
+						$sql = "";
+						}
+					}
+			}
+			if (!feof($handle)) {
+				echo "FATAL ERROR: ".$filename." ... error ... exit! ".C_RED."[FAILED]".C_DEFAULT.PHP_EOL;
+				die();
+			}
+			fclose($handle);
+		}
 	}
+	private function executeSQL($query){
+		$mysqli = $this->database;
+		//query edit:
+		$query = $this->find(
+			array("[prefix]",
+			"[name]",
+			"[surname]",
+			"[password]",
+			"[email]",
+			"[baseurl]",
+			"[pagename]"
+			),
+			array(
+			$this->dbprefix,
+			$this->name,
+			$this->surname,
+			password_hash($this->password, PASSWORD_DEFAULT),
+			$this->email,
+			$this->base_url,
+			$this->pagename
+			),
+		$query);
+		if ($mysqli->query($query) === TRUE) {
+			echo "SQL Query insert ... done ".C_GREEN."[OK]".C_DEFAULT.PHP_EOL;
+		}else{
+			echo "FATAL ERROR: ".$mysqli->error." ... error ... exit! ".C_RED."[FAILED]".C_DEFAULT.PHP_EOL;
+			exit();
+			}
+		}
 }
 
 (new Installer())->setup();
