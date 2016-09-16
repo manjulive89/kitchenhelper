@@ -75,12 +75,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'admin',
-	'password' => 'password',
-	'database' => 'kitchenhelper',
+	'hostname' => '[hostname]',
+	'username' => '[dbuser]',
+	'password' => '[dbpassword]',
+	'database' => '[db]',
 	'dbdriver' => 'mysqli',
-	'dbprefix' => 'OBAK_',
+	'dbprefix' => '[dbprefix]',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,

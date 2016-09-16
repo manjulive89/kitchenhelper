@@ -140,7 +140,6 @@
 			if($mesg[0]->sender == null OR $mesg[0]->sender == 0){
 				$user->setAnonyme(true);
 			}
-			
 			$this->setSender($user->create($mesg[0]->sender));
 			$this->setDate($mesg[0]->date);
 			$this->setSeen($mesg[0]->seen);

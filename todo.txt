@@ -1,0 +1,5 @@
+ToDO list:
+
+1) add install script
+2) make config.php dynamic --> database/json file
+Better the config.php will be created by the install script.
