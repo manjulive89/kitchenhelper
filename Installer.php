@@ -337,7 +337,7 @@ private function ini_test(){
 		@unlink(KI_CONFIG);
 		@unlink(KI_DB);
 		@unlink(KI_SQL);
-		@rmdir("install_data/")
+		@rmdir("install_data/");
 		@unlink(Installer.php);
 		}
 }
