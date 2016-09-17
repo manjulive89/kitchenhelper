@@ -1,5 +1,8 @@
-ToDO list:
-
-1) add install script
-2) make config.php dynamic --> database/json file
-Better the config.php will be created by the install script.
+ToDO list: (Manual)
+1) write a user manual --> gitHub wiki and PDF
+2) work on Documentation --> JavaScript commit it to gitHub
+ToDO list: (Programm)
+1) add Login button somewhere bottom in the frontend or on top : Button link with lock icon
+2) delete timezone set for Australia (needs to be dynimcly basend on the installed System)
+3) check config.php to find logical things to put in database
+4) make JavaScript Libs easier
