@@ -21,6 +21,7 @@ Makes use of:
 5. make sure that: **/application/config/database.php** is writeable and readable for the current user. if not use [chmod](http://www.computerhope.com/unix/uchmod.htm) to change it (Under Linux)
 6. type in the following command `php Installer.php` and follow the instructions.
 7. after the installation assitent finished it will delete: **/install_data** and **Install.php** if not make sure they are deleted.
+8. You have to change the line `RewriteBase /folder/` in the .htaccess file to the current path of the installation of the programm (KitchenHelper)
 
 **For further information how to install the KitchenHelper please check the wiki**
 
