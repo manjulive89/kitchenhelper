@@ -2,7 +2,8 @@ ToDO list: (Manual)
 1) write a user manual --> gitHub wiki and PDF
 2) work on Documentation --> JavaScript commit it to gitHub
 ToDO list: (Programm)
-1) add Login button somewhere bottom in the frontend or on top : Button link with lock icon
-2) delete timezone set for Australia (needs to be dynimcly basend on the installed System)
-3) check config.php to find logical things to put in database
-4) make JavaScript Libs easier
+- add Login button somewhere bottom in the frontend or on top : Button link with lock icon
+- delete timezone set for Australia (needs to be dynimcly basend on the installed System)
+- check config.php to find logical things to put in database
+- make JavaScript Libs easier
+- create a button under settings which does the same as the cronjob class. (Call the controller in settings)
