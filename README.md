@@ -5,14 +5,21 @@ Requires:
 - Codeigniter Version 3.0.6 (tested and developed on this version)
 - PHP 5.6.21 (Developed) or PHP 7 (Tested)
 - MySQL (Tested and developed on mysql Version 15.1 Distrib 10.0.22-MariaDB, for Linux (x86_64) using readline 5.)
-- [cron](https://de.wikipedia.org/wiki/Cron
+- [cron](https://de.wikipedia.org/wiki/Cron)
 
 Makes use of:
 - jQuery 2.2.0
 - Bootstrap v3.3.5
 - jQuery UI - v1.12.0-rc.2 - 2016-04-21
 
-# Installation
+# Installation KitcheHelper
+
+## Installation of Codeigniter
+(*follow the instructions:  [Codeigniter Installation Guide](http://www.codeigniter.com/user_guide/installation/index.html) or:*)
+1. Download [Codeigniter](https://codeigniter.com/download)
+2. Unpack it in the future destination of the KitchenHelper. *Unpack only the system folder because the application/ comes with the kitchenhelper and the index.php as well*
+
+## Installation of the programm itself
 
 1. Download the KitcheHelper
 2. unpack/clone the folder
