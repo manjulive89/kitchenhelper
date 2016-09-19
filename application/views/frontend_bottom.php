@@ -24,6 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <footer>
 	<hr>
 	<p>Copyright by <a href="http://www.simonrenger.de">Simon Renger</a> 2016 <br> Script runs under the <a href="http://www.cyoxx.de/lizenz">Cyroxx Software Lizenz 1.0</a></p>
+	<a class="pull-right" href="<?php echo $base_url->content;?>/backend"><span class="glyphicon glyphicon-lock"></span> Admin</a>
 </footer>
  	<!-- end page -->
 	<!-- include all the javascrip -->
