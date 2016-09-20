@@ -34,11 +34,17 @@
  */
 class Pdf extends Fpdf
 {
+	private $imgUrl = null;
+public function setImageUrl($string){
+	$this->imgUrl = $string;
+	}
 // Page header
 function Header()
 {
-    // Logo
-    $this->Image(APPPATH."../makeup/imgs/OBA-header-logo.png",10,6,80);
+	if($this->imgUrl != null){
+		// Logo
+		$this->Image($this->imgUrl,10,6,80);
+	}
     $this->SetFont('Arial','I',9);
     $this->Cell($this->GetPageWidth()-30,10,'Date '.date("d/m/Y H:i"),0,0,'R');
     // Line break

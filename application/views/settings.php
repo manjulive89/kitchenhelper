@@ -56,6 +56,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		  <span class="input-group-addon" id="ltdatabaserest">Last Database reset</span>
 		  <input type="text" class="form-control disabled" disabled name="lastdbreset" value="<?php echo $lastdbreset->content;?>"  aria-describedby="ltdatabasereset">
 		</div>
+		<br>		
+		<div class="input-group">
+		  <span class="input-group-addon" id="LogoUrl">Logo Url</span>
+		  <input type="text" class="form-control" name="LogoUrl" placeholder="http://localhost/images/logo.png" value="<?php if(property_exists($LogoUrl,"content")){echo $LogoUrl->content;}?>"  aria-describedby="LogoUrl">
+		</div>
+		<p class="text-info">This is for the PDF files.</p>
 		<br>
 		<div class="input-group">
 		  <span class="input-group-addon" id="PasswordName">CC Password</span>

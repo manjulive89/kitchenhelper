@@ -28,8 +28,9 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `[prefix]dietaries` (
   `id` int(11) NOT NULL,
-  `text` varchar(140) NOT NULL DEFAULT 'None',
-  `name` varchar(64) NOT NULL
+  `description` varchar(140) NOT NULL DEFAULT 'None',
+  `name` varchar(64) NOT NULL,
+  `danger` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -78,10 +79,10 @@ CREATE TABLE `[prefix]meal` (
 
 CREATE TABLE `[prefix]mealplanner` (
   `id` int(11) NOT NULL,
-  `name` varchar(128) NOT NULL,
-  `active` tinyint(1) DEFAULT '0',
-  `sort` int(11) NOT NULL,
-  `activationtime` int(11) NOT NULL
+  `mpID` int(11) NOT NULL,
+  `mID` int(11) NOT NULL,
+  `mtID` int(11) NOT NULL,
+  `repeats` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -315,7 +316,8 @@ ALTER TABLE `[prefix]settings`
 -- Indexes for table `[prefix]ticked`
 --
 ALTER TABLE `[prefix]ticked`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `mtID` (`mtID`);
 
 --
 -- Indexes for table `[prefix]user`
@@ -415,6 +417,11 @@ ALTER TABLE `[prefix]usergroups`
 --
 -- Constraints for dumped tables
 --
+
+--
+-- Constraints for table `OBAK_ticked`
+--
+ALTER TABLE `[prefix]ticked` DROP FOREIGN KEY `[prefix]ticked_ibfk_1`; ALTER TABLE `[prefix]ticked` ADD CONSTRAINT `[prefix]ticked_ibfk_1` FOREIGN KEY (`mtID`) REFERENCES `[prefix]mealtimes`(`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `[prefix]groupsdiets`

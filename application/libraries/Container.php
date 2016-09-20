@@ -197,7 +197,6 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 	 public function getMealPlans($mpID = null){
 		 $mealplans = $this->createObjects("mealplanner",$mpID);
 		 $sortedArray = array();
-		 $unsortedArray = array();
 		 foreach($mealplans as $mealplan){
 			 if($mealplan->isActive() == true){
 			 $sortedArray[$mealplan->getSort()] = $mealplan;
@@ -205,6 +204,24 @@ if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 				}else{
 					$sortedArray[] = $mealplan;
 					}
+			 }
+		 return $sortedArray;
+		 }
+	/**
+	 * getActiveMealPlans (Creator Methode)
+	 * 
+	 * retuns an array of all active mealPlans (Mealplanner Objects)
+	 * @return mixed
+	 * If no mealplans can be found it will send null otherwiese it sends an array constis of Container\Mealplanner Objects.
+	 **/
+	 public function getActiveMealPlans(){
+		 $mealplans = $this->createObjects("mealplanner",null);
+		 $sortedArray = array();
+		 foreach($mealplans as $mealplan){
+			 if($mealplan->isActive() == true){
+			 $sortedArray[$mealplan->getSort()] = $mealplan;
+			 ksort($sortedArray);
+				}
 			 }
 		 return $sortedArray;
 		 }

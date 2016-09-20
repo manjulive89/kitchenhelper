@@ -181,9 +181,11 @@ class Signoffsheet extends ContainerObject {
 						if(is_object($index)){
 							//sort by User::Group
 							if($arg == "group"){
-								$index = $t->$args[$arg]()->getGroup()->getID();
+								$func = $args[$arg];
+								$index = $t->$func()->getGroup()->getID();
 								}else{
-								$index = $t->$args[$arg]()->getID();
+								$func = $args[$arg];
+								$index = $t->$func()->getID();
 								}
 							}
 						//pu Tick Object in array.

@@ -148,7 +148,11 @@
 	public function monthpdf($month){
 		$this->load->library('container');
 		$this->load->library('pdf');//load pdf class
-		self::mpdf($month,self::mpdf($month,$this->pdf,$this->container,1,"Number of participants with FTB at mealtimes:"),$this->container,0,"Number of all participants who ate:")->Output();
+		$this->load->model("einstellungen");
+		$this->einstellungen->load();
+		$pdf = $this->pdf;
+		$pdf->setImageUrl($this->einstellungen->get("LogoUrl")->content);
+		self::mpdf($month,self::mpdf($month,$pdf,$this->container,1,"Number of participants with FTB at mealtimes:"),$this->container,0,"Number of all participants who ate:")->Output();
 		}
 	/**
 	 * mpdf
@@ -253,6 +257,9 @@
 		$this->load->library('container');
 		$this->load->library('pdf');//load pdf class
 		$pdf = $this->pdf;//ini pdf class
+		$this->load->model("einstellungen");
+		$this->einstellungen->load();
+		$pdf->setImageUrl($this->einstellungen->get("LogoUrl")->content);
 		$object = $this->container->getSignOffSheets($id);
 		if(!is_null($object) AND count($object) != 0){
 				//getting all information which are needed:

@@ -212,14 +212,25 @@
 										$.post(r.getBaseUrl()+OBAdata.type+"api/update/update",{data:meal,type:"Meal"});										  
 										  }			
 			}
+		/**
+		 * @param Object tickObject
+		 * contains the real Tick Object similar to the php Object Container\Tick. {id,type,user,day}
+		 * @param Object thisheet
+		 * contains the shee object similar to Container\Signoffsheet
+		 * @param int type
+		 * can be 0 for a normal tick.
+		 * can be 1 for a tax b. tick
+		 * can be 2 for a take a way tick
+		 **/
 		this.helper.tick = function(tickObject,thissheet,type){
-			if(tickObject.id == null){
+			console.log(tickObject);
+			if(tickObject.id == null){//adds a new tick
 			tickObject.type = type;
 			if(typeof thissheet.ticks == "undefined"){
 				thissheet.ticks = [];
 				}
 			thissheet.ticks.push(tickObject);
-			}else{
+			}else{//finds a old tick and edit it.
 			//find
 			$.each(thissheet.ticks,function(i,val){
 			if(val.id == tickObject.id){
@@ -228,16 +239,21 @@
 			}
 			});
 			}
+			
+			//safes the tick via the API @see update API
+			
 			$.post(r.getBaseUrl()+OBAdata.type+"api/update/update",{data:thissheet,type:"Signoffsheet"}).done(function(gotback){
-				OBAClass.loadUser = false;
-				OBAdata.loadSheets = false;
+				OBAdata.loadUser = false;
+				//OBAdata.loadSheets = false;
 				/**
 				$("#mealTimes").html("");
 				$(".tab-content").html("");
+				*/
 				r.requestSignOffSheets();
+				/*
 				r.requestUsers();
 				*/
-				$("#update").removeClass("hidden");
+				OBAClass.updated();
 			});			
 			}
 		this.helper.hasDiet = function($userdiets,$diet){
@@ -501,44 +517,50 @@
 								  * ##########################################################################
 								  * */
 								 $("#id_user_id"+user.id+"_mt_"+mealtime.id).on("click",".add-diet",function(){
-									 var dietContainer = "";
-									 var editContainer = "";
 									 //get diets
-									 var dietaries = r.getDiets();
-									 $.each(dietaries,function(d,diet){
-										 //check if user has diet already:
-										 if(obj.helper.hasDiet(user.dietaries,diet) == false){
-												
-												var $danger = (diet.danger == true)? "btn-danger":"btn-info";
-												dietContainer += "<button class=\"btn "+$danger+" addDiet text-center\" data-id='"+diet.id+"'><span class=\"glyphicon glyphicon-plus\"></span> "+diet.name+"</button> ";
-											}else{
-												
-												editContainer += "<button class=\"btn "+$danger+" delDiet\" data-id='"+diet.id+"'><span class=\"glyphicon glyphicon-trash\"></span> "+diet.name+"</button> ";
-												}
-										 });
-										 
-										 dietContainer = (dietContainer == "")? "- No Dietaries could be found please add yours-<br>":dietContainer;
-									
-									var addContainer = "<p class='text-info'>List of possible dietaries:</p><div id='listDiets' style='margin-bottom:15px;'>"+dietContainer+"</div> <p class=\"text-info\"><span class='glyphicon glyphicon-info-sign'></span>Please click on the name to select. <u>If you cannot find the right diet you have to create a new one.</u></p><button id=\"showedit\" data-toggle='#dieteditor' class='btn'><span class='glyphicon glyphicon-menu-down'></span> Add a new Diet Editor</button><br><div class='hidden' id='dieteditor'><div class=\"input-group\"><input type=\"text\" class=\"form-control\" id=\"newDietName\" placeholder=\"e.g Lactose Free\"><span class=\"input-group-addon\"><input type=\"checkbox\" id=\"isDanger\"> Life threatened</span><span class='input-group-btn'><button id=\"addNewDietName\" class='btn btn-success' type='button'>Add</button></span></div><!-- /input-group --></div>";									
-									var $data = "<div><ul class=\"nav nav-tabs\" role=\"tablist\"><li role=\"presentation\" class=\"active\"><a href=\"#addDiets\" aria-controls=\"addDiets\" role=\"tab\" data-toggle=\"tab\">Add Diets</a></li><li role=\"presentation\"><a href=\"#EditDiets\" aria-controls=\"EditDiets\" role=\"tab\" data-toggle=\"tab\">Manage your Dietaries</a></li></ul> <div class=\"tab-content\"><div role=\"tabpanel\" class=\"tab-pane active\" id=\"addDiets\"><br><p class='text-info'>Help: To remove a diet you have to click on the name.</p>"+addContainer+"</div><div role=\"tabpanel\" class=\"tab-pane \" id=\"EditDiets\">"+editContainer+"</div></div></div>";
+									 function buildDiatPage(){
+									var dietContainer = "";
+									 var editContainer = "";
+									 var addContainer = "";
+										 var dietaries = r.getDiets();
+										 $.each(dietaries,function(d,diet){
+											 //check if user has diet already:
+											 if(obj.helper.hasDiet(user.dietaries,diet) == false){
+													
+													var $danger = (diet.danger == true)? "btn-danger":"btn-info";
+													dietContainer += "<button class=\"btn "+$danger+" addDiet text-center\" data-id='"+diet.id+"'><span class=\"glyphicon glyphicon-plus\"></span> "+diet.name+"</button> ";
+												}else{
+													
+													editContainer += "<button class=\"btn "+$danger+" delDiet\" data-id='"+diet.id+"'><span class=\"glyphicon glyphicon-trash\"></span> "+diet.name+"</button> ";
+													}
+											 });
+											 dietContainer = (dietContainer == "")? "- No Dietaries could be found please add yours-<br>":dietContainer;
+										
+										addContainer = "<p class='text-info'>List of possible dietaries:</p><div id='listDiets' style='margin-bottom:15px;'>"+dietContainer+"</div> <p class=\"text-info\"><span class='glyphicon glyphicon-info-sign'></span>Please click on the name to select. <u>If you cannot find the right diet you have to create a new one.</u></p><button id=\"showedit\" data-toggle='#dieteditor' class='btn'><span class='glyphicon glyphicon-menu-down'></span> Add a new Diet Editor</button><br><div class='hidden' id='dieteditor'><div class=\"input-group\"><input type=\"text\" class=\"form-control\" id=\"newDietName\" placeholder=\"e.g Lactose Free\"><span class=\"input-group-addon\"><input type=\"checkbox\" id=\"isDanger\"> Life threatened</span><span class='input-group-btn'><button id=\"addNewDietName\" class='btn btn-success' type='button'>Add</button></span></div><!-- /input-group --></div>";									
+								     
+									return $data = "<div><ul class=\"nav nav-tabs\" role=\"tablist\"><li role=\"presentation\" class=\"active\"><a href=\"#addDiets\" aria-controls=\"addDiets\" role=\"tab\" data-toggle=\"tab\">Add Diets</a></li><li role=\"presentation\"><a href=\"#EditDiets\" aria-controls=\"EditDiets\" role=\"tab\" data-toggle=\"tab\">Manage your Dietaries</a></li></ul> <div class=\"tab-content\"><div role=\"tabpanel\" class=\"tab-pane active\" id=\"addDiets\"><br><p class='text-info'>Help: To remove a diet you have to click on the name.</p><div class='addContainer'>"+addContainer+"</div></div><div role=\"tabpanel\" class=\"tab-pane \" id=\"EditDiets\">"+editContainer+"</div></div></div>";
+									}
 									/**
 									 * Add Diet Dialog:
 									 * **/
-									 OBAClass.dialog("Add or Edit Dietaries",$data,function(){
+									 OBAClass.dialog("Add or Edit Dietaries",buildDiatPage(),function(){
+										 //closing action:
 													$("#ask-dialog").modal("hide");
 													OBAClass.loadUser = false;
-													OBAClass.loadDiets = false;													
+													OBAClass.loadDiets = false;	
+													OBAdata.loadSheets = true;												
 													r.requestUsers();
 													r.requestDiets();
+													user = r.getUsers(user.id);
 										 },"modal-lg");
 										 $("#showedit").click(function(){
-											 console.log(22);
 											 OBAClass.toggle(this);
 											 });
 											/**
 											 * Del diet from user
 											 ***/
-											$(".delDiet").click(function(){
+											$(".modal-body").on("click","button.delDiet",function(){
+												user = r.getUsers(user.id);
 												var $dID = $(this).attr("data-id");
 												$(this).remove();
 												var $diets = [];
@@ -549,38 +571,46 @@
 													});
 												user.dietaries = $diets;
 												$.post(r.getBaseUrl()+OBAdata.type+"api/update/update",{data:user,type:"User"}).done(function(gotback){
+													OBAdata.loadSheets = false;
+													r.requestUsers();
+													r.requestDiets();
+													$(".modal-body").html(buildDiatPage());
 													OBAClass.updated();
 													});
 												});
 											//add
-											/**
-											 * Del diet from user
-											 ***/
 											$("#addNewDietName").click(function(){
-												if($("#newDietName").val().length > 2){
-												$name = $("#newDietName").val();
-												$("#newDietName").val("");
-												$isDanger = $("#isDanger").prop("checked");
-												$("#isDanger").prop("checked",false);
-												var diet = {name:$name,danger:$isDanger,description:"None"};
-												user.dietaries.push(diet);
-												$.post(r.getBaseUrl()+OBAdata.type+"api/update/update",{data:user,type:"User"}).done(function(gotback){
-													OBAClass.updated();
-													});
-												}				
-							
+													if($("#newDietName").val().length > 2){
+														$name = $("#newDietName").val();
+														$("#newDietName").val("");
+														$isDanger = $("#isDanger").prop("checked");
+														$("#isDanger").prop("checked",false);
+														var diet = {name:$name,danger:$isDanger,description:"None"};
+														user = r.getUsers(user.id);
+														user.dietaries.push(diet);
+														$.post(r.getBaseUrl()+OBAdata.type+"api/update/update",{data:user,type:"User"}).done(function(gotback){
+															OBAdata.loadSheets = false;
+															r.requestUsers();
+															r.requestDiets();
+															$(".modal-body").html(buildDiatPage());
+															OBAClass.updated();
+															});
+													}				
+								
 												});
-											$(".addDiet").click(function(){
+											$(".modal-body").on("click","button.addDiet",function(){
+												user = r.getUsers(user.id);
 												var $dietary = r.getDiets($(this).attr("data-id"));
 												//check if user has that one:
 												user.dietaries.push($dietary);
 												$("#EditDiets").append("<button class=\"btn delDiet\" data-id='"+$dietary.id+"'><span class=\"glyphicon glyphicon-trash\"></span> "+$dietary.name+"</button> ");
 												$.post(r.getBaseUrl()+OBAdata.type+"api/update/update",{data:user,type:"User"}).done(function(gotback){
-													OBAClass.loadUser = false;
+													OBAdata.loadSheets = false;
+													r.requestUsers();
+													r.requestDiets();
 													OBAClass.updated();
 													});
 													$(this).remove();
-													//$("#ask-dialog").modal("hide");
 												});	 
 									 });
 								 /**
@@ -590,6 +620,9 @@
 								  * 
 								  * ##########################################################################
 								  * */
+								  /**
+								   * tick week
+								   **/
 								  $("#id_user_id"+user.id+"_mt_"+mealtime.id).on("click",".tick-week:not(.disabled)",function(){
 									  var $uID = $(this).attr("data-id");
 										//erase users ticks
@@ -621,6 +654,9 @@
 													$("#update").removeClass("hidden");
 													});
 										});
+								/**
+								 * single tick
+								 * */
 								  $("#id_user_id"+user.id+"_mt_"+mealtime.id).on("click",".tick:not(.disabled)",function(){
 										//get type:
 										var $type = $(this).attr("data-type");
@@ -628,14 +664,8 @@
 										var $uID = $(this).attr("data-id");
 										//get user
 										var user = r.getUsers($uID);
-										  var tickObject = null;
-										
-										$.each(thissheet.ticks,function(id,value){
-												if(value.day == $day && value.user.id == $uID){
-													tickObject = value;
-													tick = value
-													}
-											});
+										  var tickObject = r.getTickFromThisWeek(mealtime.id,$day,$uID);
+										  
 											if(tickObject == null){
 												tickObject = {};
 												tickObject.id = null;
@@ -649,12 +679,19 @@
 												$ticktypes = "<p class=\"text-info\">"+OBAClass.getHelptext(0,"helptext_tick_explain")+"</p><br><center><div class=\"btn-group\" role=\"group\">"+untick+"<button type=\"button\" class=\"btn btn-warning btn-lg tick-normal\" data-mt=\""+mealtime.id+"\" data-day='"+$day+"'><span class=\"glyphicon glyphicon-ok\"></span> Normal</button>"+tax+" "+packed+"</div></center>"
 												OBAClass.dialog("Choose tick type",$ticktypes,function(){ $("#ask-dialog").modal("hide");},"modal-lg");
 									  $(".tick-untick").click(function(){
+										  OBAClass.log("untick... loading");
 											var oldTicks = thissheet.ticks;
 											thissheet.ticks = [];//rest
 											$.each(oldTicks,function(i,val){
-												if(val.id != tickObject.id){
+												if(val.id != tickObject.id && val.id != null){
 													thissheet.ticks.push(val);
-													}
+													}else{
+														reVal = r.getTickFromThisWeek(mealtime.id,val.day,val.user.id);
+														if(reVal.id != tickObject.id){
+															thissheet.ticks.push(reVal);
+															}
+														delete reVal;
+														}
 											});
 										   var clicker = $(".tick[data-day='"+tickObject.day+"'][data-id='"+tickObject.user.id+"'][data-mt='"+thissheet.mealtime+"']");
 										   clicker.removeClass("btn-warning");
@@ -665,11 +702,9 @@
 										   clicker.find(".glyphicon").removeClass("glyphicon-ok");
 										   clicker.find(".glyphicon").addClass("glyphicon-remove");
 										$.post(r.getBaseUrl()+OBAdata.type+"api/update/update",{data:thissheet,type:"Signoffsheet"}).done(function(gotback){
-													OBAClass.loadUser = false;
-													OBAdata.loadSheets = false;
+													OBAdata.loadUser = false;
 													r.requestSignOffSheets();
-													r.requestUsers();
-													$("#update").removeClass("hidden");
+													OBAClass.log("Untick...");
 													});
 													$("#ask-dialog").modal("hide");
 									  });
@@ -678,8 +713,8 @@
 									  * 	                Tick
 									  * ############################################
 									  **/
+									  //Normal
 									   $(".tick-normal").click(function(){
-										  console.log($(this).attr("data-mt") == thissheet.mealtime);
 										   var clicker = $(".tick[data-day='"+tickObject.day+"'][data-id='"+tickObject.user.id+"'][data-mt='"+thissheet.mealtime+"']");
 										   clicker.removeClass("btn-default");
 										   clicker.removeClass("btn-success");
@@ -688,9 +723,19 @@
 										   clicker.find(".glyphicon").removeClass("glyphicon-briefcase");
 										   clicker.find(".glyphicon").removeClass("glyphicon-remove");
 										   clicker.find(".glyphicon").addClass("glyphicon-ok");
-										   obj.helper.tick(tickObject,thissheet,0);
+										   /**
+										    * thissheet: is the current sheet Object.
+										    * tickObject contains:
+												tickObject.id = null;
+												tickObject.day = $day;
+												tickObject.type = $type;
+												tickObject.user = user;
+											*  the last param is the type 0,1,2
+											*/
+										   obj.helper.tick(tickObject,thissheet,0);//this is the real tick function
 										   $("#ask-dialog").modal("hide");
 										   });
+										  //Tax benefits
 									   $(".tick-ftb").click(function(){
 										   var clicker = $(".tick[data-day='"+tickObject.day+"'][data-id='"+tickObject.user.id+"'][data-mt='"+thissheet.mealtime+"']");
 										   clicker.removeClass("btn-default");
@@ -700,9 +745,10 @@
 										   clicker.find(".glyphicon").removeClass("glyphicon-briefcase");
 										   clicker.find(".glyphicon").removeClass("glyphicon-remove");
 										   clicker.find(".glyphicon").addClass("glyphicon-ok");
-										   obj.helper.tick(tickObject,thissheet,1);
+										   obj.helper.tick(tickObject,thissheet,1);//this is the real tick function
 													$("#ask-dialog").modal("hide");
 										   });
+										//take away
 									   $(".take-away").click(function(){
 										    var clicker = $(".tick[data-day='"+tickObject.day+"'][data-id='"+tickObject.user.id+"'][data-mt='"+thissheet.mealtime+"']");
 										   clicker.removeClass("btn-default");
@@ -712,11 +758,11 @@
 										   clicker.find(".glyphicon").removeClass("glyphicon-ok");
 										   clicker.find(".glyphicon").removeClass("glyphicon-remove");
 										   clicker.find(".glyphicon").addClass("glyphicon-briefcase");
-										   obj.helper.tick(tickObject,thissheet,2);
+										   obj.helper.tick(tickObject,thissheet,2);//this is the real tick function
 										   $("#ask-dialog").modal("hide");
 										   });
 
-								});
+								});//end single tick
 								/**
 								 * #############################################
 								 * Displays the ticks:
