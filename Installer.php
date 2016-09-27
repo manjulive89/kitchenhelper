@@ -24,6 +24,9 @@
  * @copyright Simon Renger <info@simonrenger.de>, All right reserved.
  * @license Cyroxx Software Lizenz 1.0
  * 
+ * 
+ * @Todo: if file is not writeable display the code.
+ * 
  */
  define("KI_VERSION","1.0");
  define("C_DEFAULT","\e[39m");
@@ -34,7 +37,9 @@
  define("DB_PATH",A_PATH."config/database.php");
  define("KI_CONFIG","install_data/config.php.bak");
  define("KI_DB","install_data/database.php.bak");
-  define("KI_SQL","install_data/database.sql");
+ define("KI_SQL","install_data/database.sql");
+ define("KI_LOGS","application/logs/");
+ define("KI_ARCHIVE","application/archive/");
  class Installer {
 	 private $display_config = false;
 	 private $display_config_DB = false;
@@ -171,9 +176,31 @@ private function ini_test(){
 		echo "API test ... CLI ".C_GREEN."[OK]".C_DEFAULT.PHP_EOL;
 		//check if install_data existst:
 		if($this->file("install_data",false)){
+			if($this->file(A_PATH,true,true,false,false) == true){
 				$this->file(KI_CONFIG);
 				$this->file(KI_DB);
 				$this->file(KI_SQL,true,false,true,true);
+				if($this->file(KI_LOGS,true,true,false) == false){
+					if(mkdir(KI_LOGS) == true){
+						echo "create folder ".KI_LOGS." ... done ".C_GREEN."[OK]".C_DEFAULT.PHP_EOL;
+						}else{
+							echo C_RED."FATAL ERROR: could not create the folder".KI_LOGS." ".C_DEFAULT.PHP_EOL;
+							exit();
+							}
+					}
+				if($this->file(KI_ARCHIVE,true,true,false) == false){
+					if(mkdir(KI_ARCHIVE) == true){
+						echo "create folder ".KI_ARCHIVE." ... done ".C_GREEN."[OK]".C_DEFAULT.PHP_EOL;
+						}else{
+							echo C_RED."FATAL ERROR: could not create the folder".KI_ARCHIVE." ".C_DEFAULT.PHP_EOL;
+							exit();
+							}
+					
+					}
+				}else{
+					$this->file(A_PATH);
+					}
+				
 		}
 		}else{
 		echo C_RED."FATAL ERROR: PROGRAMM RUNS NOT IN CLI EXIT!".C_DEFAULT.PHP_EOL;
@@ -191,6 +218,22 @@ private function ini_test(){
 					echo "create config $file ... failed ".C_RED."[FAILED]".C_DEFAULT.PHP_EOL;
 					}
 		}
+	/**
+	 * file
+	 * 
+	 * creates a checks if a file exists, is readable, is writeable
+	 * @param String $filename
+	 * This is the file we want to check
+	 * @param boolean $readable
+	 * do we want to check if the file is readable? (Default: true)
+	 * @param boolean $write
+	 * do we want to check if the file is writeable? (Default: true)
+	 * @param boolean $exit
+	 * In case of an error shall the programm be killed? (Default true)
+	 * @param boolean $print
+	 * In case of an error/success the programm will print out a messages
+	 * For examle: check ".$filename." ... readable or writeable ".C_GREEN."[OK]".C_DEFAULT.PHP_EOL
+	 **/
 	private function file($filename,$readable = true,$write = true,$exit = true,$print = true){
 		if(file_exists($filename)){
 			if($print == true){
