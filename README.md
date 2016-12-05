@@ -8,4 +8,4 @@ Requires:
 
 #Development status
 
-currently there is no stable version. But under https://github.com/simonrenger/kitchenhelper/tree/dev you can find the development version.
+Currently there is no stable version. But under https://github.com/simonrenger/kitchenhelper/tree/dev you can find the development version.
