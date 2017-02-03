@@ -7,3 +7,7 @@ ToDO list: (Programm)
 - check config.php to find logical things to put in database
 - make JavaScript Libs easier
 - create a button under settings which does the same as the cronjob class. (Call the controller in settings)
+- logout url --> change to the current project url
+- make the installer userfriendlier
+- fix the SQL Errors (check)
+- change EN to english --> languages.
