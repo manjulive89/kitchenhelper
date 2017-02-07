@@ -2,7 +2,6 @@
 if(php_sapi_name() != "cli"){
 session_start();
 }
-date_default_timezone_set("Australia/Sydney");
 /**
  * CodeIgniter
  *

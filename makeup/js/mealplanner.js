@@ -196,8 +196,7 @@ Mealplanner = function(){
 				obj.mealplan.name = $("#mealplanname").val();
 				$("#added_mealtimes").html("");
 				$("#mealplanname").val("");
-				//send to server
-				console.log(obj.mealplan.mealtimes);
+				//send to api
 				$.post(r.getBaseUrl()+OBAdata.type+"api/update/update",{data:obj.mealplan,type:"Mealplanner"}).done(function(gotback){
 						r.requestMealTimes();
 						r.requestMealPlans();

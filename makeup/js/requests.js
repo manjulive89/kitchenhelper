@@ -466,6 +466,13 @@ Requests=function(){
 	 * @return void
 	 */
 	this.requestMealPlans = function(){
+		OBAClass.log("It might cause an Error if called not with a valid session or from the backend");
+		/**
+		 * @see Update.php --> update()
+		 * @see cronjob
+		 * @todo make this pretty
+		 **/
+		$.post(this.getBaseUrl()+OBAdata.type+"api/update/update/",{data:"update_mealplaner",type:"Mealplanner"});
 		OBAClass.log("Request Mps...");
 		var obj = this;
 			$.get(this.getBaseUrl()+OBAdata.type+"api/request/getallmealplans").success(function($data){

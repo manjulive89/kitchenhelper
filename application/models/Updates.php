@@ -119,6 +119,13 @@ class Updates extends CI_Model{
 		 if($class != "User" AND $class != "Group" AND $class != "Diet" AND Login::checkUser()->getRole() != 2){
 			 return false;
 			 }
+		//@added: 2016/12/28
+		//exception
+		if($data == "update_mealplaner" AND $class == "Mealplanner"){
+		   $this->load->model("cronj");
+		   $this->cronj->checkMealplan();
+		   return ["status"=>"done"];
+			}
 		//create the class ini methode
 		 $method = "get".$class."Class";//<< get[classname]Class() @see Container.php
 		 if(method_exists($this->container,$method)){//check if this class exists
