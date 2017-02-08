@@ -163,6 +163,15 @@ class Updates extends CI_Model{
 					 return false;
 					 }
 			 }
+			 /*
+			  * Mealplanner exception
+			  * fixes the fact that if there is NO active mealplan that there will be no active mealplan.
+			  **/
+			 if($class == "Mealplanner"){
+				if(count($this->container->getActiveMealPlans()) == 0 && $obj->isActive()){
+				 $obj->setActivationTime();
+				 }
+			 }
 			 /**
 			  * ##############
 			  *  Save Process
@@ -238,11 +247,18 @@ class Updates extends CI_Model{
 				 $meal->save();
 				 break;
 				 case "Signoffsheet":
-				 $ticks = $data["ticks"];
+				 /**
+				  * @fixed: bug if there was no other tick that it did not save by adding the check if ticks exists.
+				  **/
+				 if(isset($data["ticks"])){
+						$ticks = $data["ticks"];
+					}else{
+						$ticks = 0;
+						}
 				 if(count($ticks) != 0){
-				$sheet = $this->container->getSignOffSheetClass()->createObjectByArray($data);
-				$sheet->save();
-				return true;
+					$sheet = $this->container->getSignOffSheetClass()->createObjectByArray($data);
+					$sheet->save();
+					return true;
 				}else{
 					return false;
 				}

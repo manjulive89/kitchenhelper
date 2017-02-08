@@ -383,8 +383,11 @@ private function ini_test(){
 		@unlink(KI_SQL);
 		@rmdir("install_data/");
 		@unlink("Installer.php");
+<<<<<<< HEAD
 		**/
 		echo "Deleted Installer and its data ... done ".C_GREEN."[OK]".C_DEFAULT.PHP_EOL;
+=======
+>>>>>>> 7d3e5fad68adf09bf1f780f1b5f7ef8650eea08e
 		}
 }
 

@@ -205,6 +205,25 @@ Requests=function(){
 					}
 				}
 		};
+	this.getTickFromThisWeek= function(mtID,day,uID){
+		$ticks = this.getSignoffSheet(OBAClass.week);
+		var returnObject = null;
+		if(typeof $ticks[0] != "undefined"){
+		$.each($ticks[0],function(index,value){
+				if(value.mealtime == mtID){
+					$.each(value.ticks,function(i,val){
+						if(val.day == day){
+							if(val.user.id == uID){
+								returnObject = val;
+								return false;
+								}
+							}
+						});
+				}
+			});
+		}
+			return returnObject;
+		};
 	this.setmealtimes = function(mealtimes){
 		OBAdata.mealtimes = mealtimes;
 		};

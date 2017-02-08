@@ -49,7 +49,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			  <table class="table" id="todaysmeals">
 			  </table>
 			 </div>
-			<div class="panel-footer"><a href="#">Edit</a></div>
+			<div class="panel-footer"><a href="<?php echo $base_url->content;?>backend/mealplanner">Edit</a></div>
 			</div>
 		</div>
 		<!-- menue box -->

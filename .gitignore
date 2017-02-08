@@ -5,5 +5,7 @@ kitchenhelper.xml
 phpdox.xml
 phpcs.xml
 /system
+/application/config/config.php
+/application/config/database.php
 /application/config/config (Kopie).php
 /application/config/database (Kopie).php

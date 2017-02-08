@@ -64,7 +64,12 @@ class Einstellungen extends CI_Model{
 						return $this->settings[$name];
 						}
 					}
-				return null;
+					/**
+					 * fix for the case that the code afterwards is expecting a Object instead of null
+					 **/
+					$object = new StdClass();
+					$object->content = null;
+				return $object;
 			}
 		/**
 		 * load settings from database

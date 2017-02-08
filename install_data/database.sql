@@ -421,7 +421,11 @@ ALTER TABLE `[prefix]usergroups`
 --
 -- Constraints for table `OBAK_ticked`
 --
+<<<<<<< HEAD
 ALTER TABLE `[prefix]ticked` ADD CONSTRAINT `[prefix]ticked_ibfk_1` FOREIGN KEY (`mtID`) REFERENCES `[prefix]mealtimes`(`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+=======
+ALTER TABLE `[prefix]ticked` DROP FOREIGN KEY `[prefix]ticked_ibfk_1`; ALTER TABLE `[prefix]ticked` ADD CONSTRAINT `[prefix]ticked_ibfk_1` FOREIGN KEY (`mtID`) REFERENCES `[prefix]mealtimes`(`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+>>>>>>> 7d3e5fad68adf09bf1f780f1b5f7ef8650eea08e
 
 --
 -- Constraints for table `[prefix]groupsdiets`

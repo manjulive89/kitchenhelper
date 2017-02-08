@@ -170,6 +170,12 @@ OBA = function(){
 					})
 				});
 			}
+		/**
+		 * toggle
+		 * 
+		 * @param string element
+		 * It has to be a Doom Element name. It can be a ID (#[Name]) or a Class (.[name])
+		 **/
 		this.toggle = function(element){
 		var $target = $($(element).attr("data-toggle"));
 		if($target.hasClass("hidden")){
@@ -180,7 +186,6 @@ OBA = function(){
 		$(element).find("span").addClass("glyphicon-menu-down");
 		$(element).find("span").removeClass("glyphicon-menu-up");
 		$target.addClass("hidden");
-			
 			}
 		}
 		this.dialog = function(title,msg,func,size){
