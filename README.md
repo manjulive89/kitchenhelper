@@ -10,4 +10,4 @@ Requires:
 
 Currently there is no stable version. But under https://github.com/simonrenger/kitchenhelper/tree/dev you can find the development version.
 
-(Checkout my Youtube Playlist about how to use the KitchenHelper)[https://www.youtube.com/playlist?list=PLGoDOLiqZyl9iLZ7Vn_ugIqQmeAh2rPnG]
+[Checkout my Youtube Playlist about how to use the KitchenHelper](https://www.youtube.com/playlist?list=PLGoDOLiqZyl9iLZ7Vn_ugIqQmeAh2rPnG)
