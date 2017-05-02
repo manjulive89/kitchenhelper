@@ -138,6 +138,8 @@ class Updates extends CI_Model{
 			  * ##################
 			  * USER UPDATE EXTRAS
 			  * ##################
+			  * checks if the user has a Password IF there is a change of the role from
+			  * user to Admin or Mod.
 			  **/
 			 if($class == "User"){
 				 if(Login::checkUser()->getRole() >= $obj->getRole()){
@@ -150,7 +152,8 @@ class Updates extends CI_Model{
 					$check = $this->db->where(array("email"=>$data["email"],"id"=>"!= ".$obj->getID()))->get("user")->result();
 					}
 				if(count($checkPassword) == 1){
-				if(strlen($checkPassword[0]->password) == 0){
+				//checks if passowrd is set or not!
+				if(strlen($checkPassword[0]->password) == 0 && strlen($data["password"]) == 0){
 					if($obj->getRole() == 1){
 						return false;
 						}
@@ -184,6 +187,7 @@ class Updates extends CI_Model{
 							if($data["password"] != null){
 							$password =  password_hash($data["password"], PASSWORD_DEFAULT);
 							$this->db->set("password",$password)->where("id",$obj->getID())->update("user");
+							
 							}
 						}
 					return true;

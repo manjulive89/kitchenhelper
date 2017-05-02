@@ -61,7 +61,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		  <span class="input-group-addon" id="LogoUrl">Logo Url</span>
 		  <input type="text" class="form-control" name="LogoUrl" placeholder="http://localhost/images/logo.png" value="<?php if(property_exists($LogoUrl,"content")){echo $LogoUrl->content;}?>"  aria-describedby="LogoUrl">
 		</div>
-		<p class="text-info">This is for the PDF files.</p>
+		<br>		
+		<div class="input-group">
+		  <span class="input-group-addon" id="EMailAddress">System E-Mail Address Domain</span>
+		  <input type="text" class="form-control" name="EMailAddress" placeholder="false" value="<?php if(property_exists($EMailAddress,"content")){echo $EMailAddress->content;}?>"  aria-describedby="EMailAddress">
+		</div>
+		<br>		
+		<div class="input-group">
+		  <span class="input-group-addon" id="sendMail">Sending of E-Mail endabled</span>
+		  <input type="text" class="form-control" name="sendMail" placeholder="false" value="<?php if(property_exists($sendMail,"content")){echo $sendMail->content;}?>"  aria-describedby="sendMail">
+		</div>
 		<br>
 		<div class="input-group">
 		  <span class="input-group-addon" id="PasswordName">CC Password</span>

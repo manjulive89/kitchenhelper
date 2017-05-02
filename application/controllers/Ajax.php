@@ -146,10 +146,19 @@ class Ajax extends CI_Controller{
 	 * Returns at the moment only the JSON of the helptexts ...
 	 * @todo:change name and function to settings...
 	 * @returns StdClass
+	 * @since 08.02.2017
 	 **/
-	private function json(){
+	private function settings(){
 		$this->load->model("einstellungen");
-		return $this->einstellungen->load()["helptexts"]->content;
+		$this->einstellungen->load();
+		$settings = array(
+		"base_url" => $this->einstellungen->getContent("base_url"),
+		"pagename" => $this->einstellungen->getContent("pagename"),
+		"pagetitle" => $this->einstellungen->getContent("pagetitle"),
+		"logourl" => $this->einstellungen->getContent("LogoUrl"),
+		"mail" => $this->einstellungen->getContent("EMailAddress")
+		);
+		return array("helptexts"=>$this->einstellungen->getContent("helptexts"),"settings"=>$settings);
 		}
 	}
 

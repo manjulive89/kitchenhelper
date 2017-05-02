@@ -60,6 +60,11 @@ class User extends ContainerObject{
 	* @var boolean
 	**/
 	protected $anonyme = false;
+	/**
+	 * has the user a password!
+	 * var boolean
+	 **/
+	 protected $hasPw;
 	//setter
 	/**
 	 * @param string $surname
@@ -106,6 +111,9 @@ class User extends ContainerObject{
 	   **/
 	  public function setAnonyme($condition){
 			 $this->anonyme = $condition;
+		  }
+	  public function setHasPassword($hpw = false){
+		  $this->hasPw = $hpw;
 		  }
 	//get
 	/**
@@ -169,6 +177,12 @@ class User extends ContainerObject{
 	  public function isAnonyme(){
 		  return $this->anonyme;
 		  }
+	/**
+	 * @return boolean
+	 **/
+	 public function hasPassword(){
+		 return $this->hasPw;
+		 }
 	//other methodes:
 	/**
 	 * Adds a new diet to the self::$diet array
@@ -213,6 +227,11 @@ class User extends ContainerObject{
 				$this->setRole($user[0]->role);
 				$this->setEmail($user[0]->email);
 				$this->setRemoved($user[0]->removed);
+				if(strlen($user[0]->password) == 0){
+					$this->setHasPassword();
+					}else{
+						$this->setHasPassword(true);
+						}
 				$group = new Group();
 				$group->create($user[0]->group);
 				$this->setGroup($group);

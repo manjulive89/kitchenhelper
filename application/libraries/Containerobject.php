@@ -226,9 +226,17 @@
 														}
 													}else if($index == "diets"){
 														foreach($array[$index] as $arrayContent){
-															$object = $this->createClassbyArray("Diet",$arrayContent);
-															$object->setNumber($arrayContent["number"]);
-															$this->addDiet($object);
+															/**
+															 * Workaround
+															 * @see user.js line 280 ...
+															 * because when a diet is deleted from the array it creats an empty array entry (string) this causes a crash
+															 * thats why the check if the array content is a array. 02/may/2017
+															 **/
+															if(is_array($arrayContent)){
+																$object = $this->createClassbyArray("Diet",$arrayContent);
+																$object->setNumber($arrayContent["number"]);
+																$this->addDiet($object);
+															}
 															}
 														}
 								}

@@ -162,10 +162,20 @@ OBA = function(){
 						}
 					}
 		};
+		this.getSettings = function(index){
+			if(typeof index == "undefined"){
+				return OBAdata.settings;
+				}else if (typeof index != "undefined"){
+					if(typeof OBAdata.settings[index] != "undefined"){
+					return OBAdata.settings[index];
+					}
+				}
+		};		
 		this.displayHelptexts = function(){
 			ht = this.getHelptext();
 			$.each(ht,function(index,value){
 				$.each(value.data,function(key,content){
+					t
 					$("."+key).html(content.content);
 					})
 				});
@@ -177,6 +187,7 @@ OBA = function(){
 		 * It has to be a Doom Element name. It can be a ID (#[Name]) or a Class (.[name])
 		 **/
 		this.toggle = function(element){
+		this.log("toggle");
 		var $target = $($(element).attr("data-toggle"));
 		if($target.hasClass("hidden")){
 		$(element).find("span").removeClass("glyphicon-menu-down");

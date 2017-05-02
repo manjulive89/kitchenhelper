@@ -51,11 +51,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div><!-- end panel -->
 	</div><!-- end row -->
 	<div class="row">
-		<?php
-		if($login->content == true)
-		{
-?>
-
   <!-- Nav tabs -->
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#groupmanagment" aria-controls="groupmanagment" role="tab" data-toggle="tab">Group managment</a></li>
@@ -63,14 +58,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </ul>
   <div class="tab-content">
 	  <div role="tabpanel" class="tab-pane active" id="groupmanagment">
-<?php
-			}?>
 		<button class="btn pull-right hidden" id="addGroups"><span class="glyphicon glyphicon-plus"></span> Add Group</button>
 		<div id="tickOverviewGroups">
 		</div>
-<?php
-if($login->content == true){
-	?>
 	</div>
     <div role="tabpanel" class="tab-pane" id="dietmanagment">
 		<div class="row">
@@ -100,8 +90,5 @@ if($login->content == true){
 		</div><!-- /row -->    
     </div>
 	</div>
-	<?php
-	}
-	?>
 	</div>
 </div>

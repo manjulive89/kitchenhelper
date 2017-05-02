@@ -75,11 +75,12 @@ $route['backend/export/sheet/excel/month/sheet_(:num).xls'] = 'export/monthexcel
  * #############################################################
  **/
 //backend:
+$route['backend/api/request/settings']['GET'] = 'ajax/action/settings/$1';
 $route['backend/api/(:any)/(:any)']['GET'] = 'ajax/action/$1/$2';
 $route['backend/api/(:any)/(:any)/(:num)']['GET'] = 'ajax/action/$1/$2/$3';
 $route['backend/api/(:any)/(:any)']['POST'] = 'ajax/action/$1/$2';
 //frontend
-$route['frontend/api/json/load']['GET'] = 'ajax/action/json/load';
+$route['frontend/api/request/settings']['GET'] = 'ajax/action/settings/$1';
 $route['frontend/api/request/(:any)']['GET'] = 'ajax/action/front_request/$1';
 $route['frontend/api/request/(:any)/(:num)']['GET'] = 'ajax/action/front_request/$2/$3';
 $route['frontend/api/update/(:any)']['POST'] = 'ajax/action/update_frontend/$1';

@@ -44,13 +44,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
          <script src="<?php echo $base_url->content;?>makeup/js/mealplanner.js"></script>
      <script>
 	var OBAClass = new OBA();
-	OBAClass.debug = false;
+	OBAClass.debug = true;
 	OBAClass.time("#time",30);
 	OBAClass.date("#date",1);
 	var r = new Requests();
 	r.setBaseUrl("<?php echo $base_url->content;?>");
 	OBAdata.exportExcel = "<?php echo $base_url->content;?>backend/export/sheet/excel/";
 	OBAdata.exportPDF = "<?php echo $base_url->content;?>backend/export/sheet/pdf/";
+	r.requestSettings();	
 	r.requestMessages();
 	r.requestNotifications();
 	r.requestMealPlans();
@@ -62,9 +63,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	r.requestUsers();//ini later only on User Page
 	r.requestGroups();
 	r.requestMeals();
-	r.requestHelpTexts();
-	$( "body" ).on( "loadHelptexts", function() {
+	$( "body" ).on( "loadSettings", function() {
 		OBAdata.loadHelptexts= true;
+			console.log("LOOL");
 		OBAClass.displayHelptexts();
 		OBAClass.log("Display Helptexts");
 		$("body").trigger("displayMps");

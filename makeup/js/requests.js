@@ -503,18 +503,20 @@ Requests=function(){
 			});
 		}
 	/**
-	 * @methode requestMealPlans
+	 * @methode requestSettings
 	 * this methode request the API for the mealplan object and saves it in the mealplan object of the OBAdata class
 	 * @see setMealPlans()
 	 * @return void
 	 */
-	this.requestHelpTexts = function(){
-		OBAClass.log("Request Helptexts...");
+	this.requestSettings = function(){
+		OBAClass.log("Request settings...");
 		var obj = this;
-		$.getJSON(this.getBaseUrl()+OBAdata.type+"api/json/load").success(function(data){
-			OBAdata.helptexts = data;
-			OBAClass.log("Trigger loadHelptexts");
-			$("body").trigger("loadHelptexts");
+		$.getJSON(this.getBaseUrl()+OBAdata.type+"api/request/settings").success(function(data){
+			console.log("loadSettings");
+			OBAdata.settings = data.settings;
+			OBAdata.helptexts = data.helptexts;
+			OBAClass.log("Trigger settings");
+			$("body").trigger("loadSettings");
 			});
 		}
 	/**

@@ -46,6 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	var r = new Requests();
 	r.setBaseUrl("http://localhost/outwardbound/");
 	r.setType("frontend/");
+	r.requestSettings();
 	r.requestMessages();
 	r.requestNotifications();
 	r.requestMealPlans();
@@ -57,9 +58,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	r.requestUsers();//ini later only on User Page
 	r.requestMeals();
 	r.requestDiets();
-	r.requestHelpTexts();
 
-	$( "body" ).on( "loadHelptexts", function() {
+	$( "body" ).on( "loadSettings", function() {
 		OBAdata.loadHelptexts= true;
 		OBAClass.displayHelptexts();
 		OBAClass.log("Display Helptexts");

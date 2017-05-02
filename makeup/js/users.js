@@ -23,6 +23,14 @@ Users = function(){
 		  break;
 		  }
 	});
+	/***
+	 * #################################################################
+	 * 
+	 * Diets
+	 * 
+	 * #################################################################
+	 ***/
+	 
 	/**
 	 * createDietList
 	 * 
@@ -100,6 +108,12 @@ Users = function(){
 				new OBA().dialog("Remove Group",OBAClass.getHelptext(4,"helptext_group_2l"));
 				}
 		});
+	/***
+	 * #################################################################
+	 * 
+	 * Groups
+	 * 
+	 * ######
 	/**
 	 * createGroupList
 	 * 
@@ -107,7 +121,8 @@ Users = function(){
 	 * 
 	 * @return void
 	 **/
-	 this.createGroupList = function(){				/**
+	 this.createGroupList = function(){				
+				/**
 				 * Create Group Overview 
 				 * */
 				$("#groups #tickOverviewGroups").html("<br>");
@@ -118,16 +133,21 @@ Users = function(){
 						var diets = "";
 						$.each(value.diets,function(index,val){
 							var $class = (val.danger == true)? "label-danger":"label-info";
-							diets += "<li data-id=\""+val.id+"\" class='list-group-item'><button class=\"btn minus-diet\" data-index='"+index+"' data-id=\""+value.id+"\"><span class='glyphicon glyphicon-minus'></span></button> <button data-id=\""+value.id+"\" data-index='"+index+"' class=\"btn plus-diet\"><span class='glyphicon glyphicon-plus'></span></button><button class=\"btn btn-info\" data-toggle=\"popover\" placement=\"top\"  title=\""+val.name+"\" data-content=\""+val.description+"\"><span class='glyphicon glyphicon-question-sign'></span></button>  "+val.name+" <span class=\"pull-right label "+$class+"\">"+val.number+"</span></li>";
+							/**
+							 * @change: 10.02.2017 made the label big
+							 **/
+							diets += "<li data-id=\""+val.id+"\" class='list-group-item'><button class=\"btn minus-diet\" data-index='"+index+"' data-id=\""+value.id+"\"><span class='glyphicon glyphicon-minus'></span></button> <button data-id=\""+value.id+"\" data-index='"+index+"' class=\"btn plus-diet\"><span class='glyphicon glyphicon-plus'></span></button><button class=\"btn btn-info\" data-toggle=\"popover\" placement=\"top\"  title=\""+val.name+"\" data-content=\""+val.description+"\"><span class='glyphicon glyphicon-question-sign'></span></button>  "+val.name+" <span style='font-size:20px' id='number_diet_gID"+value.id+"_dID"+val.id+"' class=\"pull-right label "+$class+"\">"+val.number+"</span></li>";
 							});
 						if(diets == ""){
 							diets = "<li class=\"list-group-item text-center text-warning\">-None-</li>";
 							}
+						// * 1000 because php is seconds!
+						var date = new Date(parseInt(value.date) * 1000);
 						/**
 						 * Ticks
 						 **/
 						 //add overview header
-						  $("#groups #tickOverviewGroups").append("<h3><button class='btn btn-default' id='btn-toggle-"+value.id+"' data-toggle=\".pgroup-"+value.id+"\"><span class='glyphicon glyphicon-menu-down'></span></button> <span class=\"label label-default\">Size: "+value.number+" "+value.name+"</span>  <span class='badge pull-right'>"+new Date(parseInt(value.date)).getDate()+". "+$mons[new Date(parseInt(value.date)).getMonth()]+" "+new Date(parseInt(value.date)).getFullYear()+"</span></h3>");
+						  $("#groups #tickOverviewGroups").append("<h3><button class='btn btn-default' id='btn-toggle-"+value.id+"' data-toggle=\".pgroup-"+value.id+"\"><span class='glyphicon glyphicon-menu-down'></span></button> <span class=\"label label-default\">Size: "+value.number+" "+value.name+"</span>  <span class='badge pull-right'>"+date.getDate()+". "+$mons[date.getMonth()]+" "+date.getFullYear()+"</span></h3>");
 						  $("#groups #tickOverviewGroups").append('<div class=\"pgroup-'+value.id+' hidden\"><div class="panel panel-default" > <div class="panel-body"><strong>Dietaries</strong><ul class="list-group">'+diets+'</ul></div></div><div class="btn-group" role="group"><button class="btn btn-sm btn-default groupadddiet" data-id="'+value.id+'"><span class=\"glyphicon glyphicon-plus\"></span> Add dietaries</button><button class="btn btn-sm btn-default groupedit" data-id="'+value.id+'"><span class=\"glyphicon glyphicon-pencil\"></span> Edit '+value.name+'</button><button class="btn btn-danger btn-sm groupdel" data-id="'+value.id+'"><span class="glyphicon glyphicon-trash"></span> Delete '+value.name+'</button></div><br><h3>Tick Overview for '+value.name+'</h3></div>');
 						 $("#groups #tickOverviewGroups").append("<div class=\"pgroup-"+value.id+" hidden\"><table class=\"table\" id='table_group_"+value.id+"'><tr><th>Mealtime</th><th>Week</th><th data-day='1'>Mon</th><th data-day='2'>Tue</th><th data-day='3'>Wed</th><th data-day='4'>Thu</th><th data-day='5'>Fri</th><th data-day='6'>Sat</th><th data-day='0'>Sun</th><th></th></tr><table></div>");
 						 $.each(value.ticks,function(mtID,mealtime){
@@ -157,7 +177,7 @@ Users = function(){
 									OBAClass.toggle("#btn-toggle-"+value.id);
 								});						
 						});
-						
+							$( "body" ).trigger("groupListstCreated");
 		$('[data-toggle="popover"]').popover();
 	}
 		 /**
@@ -185,8 +205,7 @@ Users = function(){
 			 $groupObject.name = $("#groupNewName").val();
 			 $("#groupNewName").val("");
 			 $groupObject.number = $("#groupsNumber").val();
-			 console.log($("#groupsdate").val());
-			 $groupObject.date = new Date($("#groupsdate").val()).getTime();
+			 $groupObject.date = ( new Date($("#groupsdate").val()).getTime() / 1000);
 			 $("#groupsNumber").val("");
 			 $("#diet-list-groups-number-add ").html("");
 						$.post(r.getBaseUrl()+r.getType()+"api/update/update",{data:$groupObject ,type:"Groups"}).done(function(){
@@ -195,8 +214,8 @@ Users = function(){
 									OBAClass.updated();
 									obj.newGroup = {diets:[],name:"",number:0}
 									$("#ask-dialog").modal("hide");
-					$("#nameError").removeClass("has-error");
-					$("#numberError").removeClass("has-error");
+									$("#nameError").removeClass("has-error");
+									$("#numberError").removeClass("has-error");
 						});
 				}else{
 					$("#nameError").addClass("has-error");
@@ -213,7 +232,8 @@ Users = function(){
 			if($groupObject.name != "Default"){
 				$("#groupsNumber").val($groupObject.number);
 				$("#groupNewName").val($groupObject.name);
-				var $d = new Date(parseInt($groupObject.date));
+				//@fix time bug because of PHP safes dates in second and JavaScript saves in MillSec so I had to add *1000
+				var $d = new Date(parseInt($groupObject.date)*1000);
 				/**
 				 * A string representing a date.
 				 * Value: A valid full-date as defined in [RFC 3339], 
@@ -223,7 +243,6 @@ Users = function(){
 				* */
 				var $day = (new String($d.getDate()).length == 1)? "0"+$d.getDate():$d.getDate();
 				var $mon = (new String($d.getMonth()).length == 1)? "0"+($d.getMonth()+1):($d.getMonth()+1);
-				console.log($d.getFullYear()+"-"+$day+"-"+$mon);
 				$("#groupsdate").val($d.getFullYear()+"-"+$mon+"-"+$day);
 				}
 			/**
@@ -248,45 +267,67 @@ Users = function(){
 	 * #################
 	 * 
 	 * GROUP DIETS:
+	 * 
+	 * .plus-diet:
+	 * plus 1 new diet.
+	 * refers: number_diet_gID[group ID]_dID[diet ID]
 	 **/
 	 $(" #tickOverviewGroups").on("click",".plus-diet",function(){
 			var $index = $(this).attr("data-index");
 			var $group = r.getGroups($(this).attr("data-id"));
-			
 			$group.diets[$index].number = parseInt($group.diets[$index].number) + 1;
+			var htmlID = "#number_diet_gID"+$group.id+"_dID"+$group.diets[$index].id;
 			console.log($group.diets[$index].number);
 			$.post(r.getBaseUrl()+r.getType()+"api/update/update",{data:$group,type:"Groups"}).done(function(){
-									r.requestGroups();
-									obj.createGroupList();
-									OBAClass.updated();
-									$("#ask-dialog").modal("hide");
+											$(htmlID).text($group.diets[$index].number);
+											OBAClass.updated();
+											$("#ask-dialog").modal("hide");
 			});
 		  });
 	 $(" #tickOverviewGroups").on("click",".minus-diet",function(){
 			var $index = $(this).attr("data-index");
 			var $group = r.getGroups($(this).attr("data-id"));
-			if((parseInt($group.diets[$index].number)-1) != 0){
+			var htmlID = "#number_diet_gID"+$group.id+"_dID"+$group.diets[$index].id;
+			if((parseInt($group.diets[$index].number)-1) > 0){
 			$group.diets[$index].number = parseInt($group.diets[$index].number) - 1;
 			}else{
+				$(".list-group-item[data-id="+$group.diets[$index].id+"]").remove();
+				OBAClass.updated();
 				delete $group.diets[$index];
 				}
 						$.post(r.getBaseUrl()+r.getType()+"api/update/update",{data:$group,type:"Groups"}).done(function(){
-									r.requestGroups();
-									obj.createGroupList();
-									OBAClass.updated();
-									$("#ask-dialog").modal("hide");
+											$(htmlID).text($group.diets[$index].number);
+											OBAClass.updated();
+											$("#ask-dialog").modal("hide");
 						});
 		  });
-		  
+	function GroupHasDiet (group,diet){
+		var ergebnis = false;
+		$.each(group.diets,function(index,gdiet){
+				if(diet.id == gdiet.id){
+					ergebnis = true;
+					return false;
+					}
+			});
+			return ergebnis;
+		}
 	$(" #tickOverviewGroups").on("click",".groupadddiet",function(){
 		 var diets = r.getDiets();
 		 var gID =$(this).attr("data-id");
 		 var dietHTML = "";
+		 var group = r.getGroups(gID);
 		 $.each(diets,function(index,diet){
+			 //search for group
+			 if(!GroupHasDiet(group,diet)){
 			 $danger = (diet.danger == true)? "danger":"info";
-			 dietHTML += " <button class='addNewDietToGroup btn btn-"+$danger+"' data-group='"+gID+"' data-id='"+diet.id+"'>"+diet.name+"</button> ";
+				dietHTML += " <button class='addNewDietToGroup btn btn-"+$danger+"' data-group='"+gID+"' data-id='"+diet.id+"'>"+diet.name+"</button> ";
+				}
 			 });
-		OBAClass.dialog("Add Diet","<p class='text-info'>Choose your diet</p>"+dietHTML);
+		OBAClass.dialog("Add Diet","<p class='text-info'>Choose your diet</p>"+dietHTML,function(){
+				r.requestGroups();
+				obj.createGroupList();
+				$('#ask-dialog').modal('hide');
+			});
 		/**
 		 * SAVE DIET IN OBJECT --> IN DB
 		 * */
@@ -296,8 +337,6 @@ Users = function(){
 		$(this).remove();
 		group.diets.push(diet);
 						$.post(r.getBaseUrl()+r.getType()+"api/update/update",{data:group,type:"Groups"}).done(function(){
-									r.requestGroups();
-									obj.createGroupList();
 									OBAClass.updated();
 						});
 		});			
@@ -575,7 +614,9 @@ Users = function(){
 							OBAClass.toggle(this);
 							});
 					});
-				
+					$("#group_removed_users_overview_toggler").click(function(){
+							OBAClass.toggle(this);
+					});
 				$('[data-toggle="popover"]').popover()
 		}
 	/**
@@ -585,7 +626,7 @@ Users = function(){
 	 * if I had time I would have ... no
 	 **/
 	/* Re delete Delete*/
-	$("#userremovetable ").on("click",".ure",function(){
+	$("#userremovetable").on("click",".ure",function(){
 		$user = r.getUsers($(this).attr("data-id"));
 			$user.removed = false;
 					$.post(r.getBaseUrl()+r.getType()+"api/update/update",{data:$user,type:"User"}).done(function(){
@@ -623,6 +664,13 @@ Users = function(){
 	 * 
 	 * */
 	$("#usertable").on("click",".uedit",function(){
+		//request:
+		r.requestDiets();
+		r.requestUserGroups();
+		$user = r.getUsers($(this).attr("data-id"));
+		obj.edit = true;
+		obj.newUser = $user;
+		
 		$("#userOverviewNew").html('<span class="glyphicon glyphicon-pencil"></span> Edit User');
 		$(".tab-pane").removeClass("active");
 		$("#userTabNav").removeClass("active");
@@ -631,19 +679,16 @@ Users = function(){
 		$("#dietListnewUser").html("");
 		$("#isAdmin").prop("checked",false);
 		$("#isManager").prop("checked",false);
-		r.requestDiets();
-		r.requestUserGroups();
-		$user = r.getUsers($(this).attr("data-id"));
-		obj.edit = true;
-		obj.newUser = $user;
 		$("#newUserName").val($user.name);
 		$("#newUserSurname").val($user.surname);
 		$("#newUserEmail").val($user.email);
+		
 		if($user.role == 1){
 			$("#isManager").prop("checked",true);
 			}else if($user.role == 2){
 			$("#isAdmin").prop("checked",true);
 			}
+		
 			$.each($user.dietaries,function(i,diet){
 				$class = (diet.danger == true)? "label-danger":"label-info";
 				$("#dietListnewUser").append(" <span data-id=\""+diet.id+"\" class=\" user-diet label "+$class+"\">"+diet.name+" <span class=\"glyphicon glyphicon-remove\"></span></span>");
@@ -669,16 +714,26 @@ Users = function(){
 		$("#dropGroupItems").on("click"," a",function(){
 			$group = r.getUserGroups();
 			obj.newUser.group = $group[$(this).attr("data-index")];
-		$("#dropGroup").html(obj.newUser.group.name+" <span class=\"caret\"></span>");
+			$("#dropGroup").html(obj.newUser.group.name+" <span class=\"caret\"></span>");
 		});
 		/**
-		 * check if its admin
+		 * check if its admin oder manager
 		 **/
-		$("#isAdmin").click(function(){
-			if($("#Password").val().length >= 4  && $("#Password2").val().length >= 4 && $("#Password").val() == $("#Password2").val()){
-				obj.newUser.role = 	$("#isAdmin").prop("checked");
+		 $("input[name=isManager]").click(function(){
+			 $("#isAdmin").prop("checked",false);
+			if(passwordValid()){
+				$("#isAdmin").prop("checked",true);				
 				}else{
-						$("#isAdmin").prop("checked",false);
+					$("input[name=isManager]").prop("checked",false);
+					
+					}
+			 });
+		$("#isAdmin").click(function(){
+			$("input[name=isManager]").prop("checked",false);
+			if(passwordValid()){
+				$("#isAdmin").prop("checked",true);			
+				}else{
+					$("#isAdmin").prop("checked",false);
 					}
 		});
 		/**
@@ -723,35 +778,26 @@ Users = function(){
 		obj.newUser.surname = $("#newUserSurname").val();
 		obj.newUser.email = $("#newUserEmail").val();
 		if(obj.edit == false){
-			if($("#Password").val().length >= 4  && $("#Password2").val().length >= 4 && $("#Password").val() == $("#Password2").val()){
-				obj.newUser.password = $("#Password").val();
-					var role = 0;
-					if( $("#isAdmin").prop("checked") == true){
-						role = 2;
-						}else if ( $("#isManager").prop("checked") == true){
-							role = 1;
-							}
-				 obj.newUser.role = role;
-				 $("#isAdmin").prop("checked",false);
-				}else if($("#isAdmin").prop("checked") == true){
-					new OBA().dialog("Error",OBAClass.getHelptext(4,"helptext_password"));
-						$("#isAdmin").prop("checked",false);
-						return false;
-					}
-			}else if($("#isAdmin").prop("checked") != obj.newUser.role || $("#isManager").prop("checked") != obj.newUser.role){
-					var role = 0;
-					if( $("#isAdmin").prop("checked") == true){
-						role = 2;
-						}else if ( $("#isManager").prop("checked") == true){
-							role = 1;
-							}
-					obj.newUser.role = role;
-					//check password:
-					if($("#Password").val().length >= 4  && $("#Password2").val().length >= 4 && $("#Password").val() == $("#Password2").val()){
+			var role = 0;
+			if($("#isAdmin").prop("checked") || $("#isManager").prop("checked")){
+					if(passwordValid()){
 						obj.newUser.password = $("#Password").val();
-					}else{
-						new OBA().dialog("Error",OBAClass.getHelptext(4,"helptext_password"));
-						}
+						role = ($("#isAdmin").prop("checked"))? 2 : 1;
+						}else{
+							new OBA().dialog("Error",OBAClass.getHelptext(4,"helptext_password"));
+							}		
+				}
+			}else if($("#isAdmin").prop("checked") != obj.newUser.role && $("#isManager").prop("checked") != obj.newUser.role){
+				if($("#isAdmin").prop("checked") || $("#isManager").prop("checked")){
+						if(passwordValid()){
+							obj.newUser.password = $("#Password").val();
+							role = ($("#isAdmin").prop("checked"))? 2 : 1;
+							}else{
+								new OBA().dialog("Error",OBAClass.getHelptext(4,"helptext_password"));
+								}
+							}else{
+									role = ($("#isAdmin").prop("checked"))? 2 : 1;	
+								}
 				}
 		if(obj.newUser.email.length > 0 && obj.newUser.name.length > 0 && obj.newUser.surname.length > 0){
 		$.post(r.getBaseUrl()+r.getType()+"api/update/update",{data:obj.newUser,type:"User"}).done(function(gotback){
@@ -805,3 +851,22 @@ Users = function(){
 		}
 
 	}
+
+function passwordValid(error){
+	if(($("#Password").val().length >= 4  && $("#Password2").val().length >= 4 && $("#Password").val() == $("#Password2").val()) == false){
+		$(".pwCheck").removeClass("has-success");
+		$(".pwCheck").addClass("has-error");
+		$(".pwCheck .form-control-feedback").removeClass("glyphicon-ok");
+		$(".pwCheck .form-control-feedback").addClass("glyphicon-warning-sign");
+		$(".pwCheck .form-control-feedback").removeClass("hidden");		
+		return false;
+		}else{
+		$(".pwCheck").removeClass("has-error");
+		$(".pwCheck").addClass("has-success");
+		$(".pwCheck .form-control-feedback").removeClass("glyphicon-warning-sign");
+		$(".pwCheck .form-control-feedback").addClass("glyphicon-ok");
+		$(".pwCheck .form-control-feedback").removeClass("hidden");
+		return true;
+			}
+	}
+

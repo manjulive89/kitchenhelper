@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
  /*
- * @file backend_bottom.php
+ * @file groups_bottom.php
  * @version 1.0 
  * @projcet Kitchenhelper
  * 
@@ -44,9 +44,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	var r = new Requests();
 	r.setBaseUrl("<?php echo $base_url->content;?>");
 	r.setType("frontend/");
+	r.requestSettings();
 	r.requestMealTimes();
 	r.requestGroups();
-	r.requestHelpTexts();
 	r.requestDiets();
 	$( "body" ).on( "loadHelptexts", function() {
 		OBAdata.loadHelptexts= true;

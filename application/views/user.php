@@ -54,8 +54,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <br><p class="helptext_listsortgroup"></p>
     <p class="text-info"><span class="glyphicon glyphicon-info-sign"></span> <span class="helptext_why_red"></span></p>
     <div id="usertable"></div>
-    <br><p class="helptext_removed"></p>
-    <div id="userremovetable"></div>
+    <br>
+    <h3><button id="group_removed_users_overview_toggler" class='btn btn-sm btn-primary' data-toggle='#userremovetable'><span class='glyphicon glyphicon-menu-down'></span></button> <span class="helptext_removed"></span></h3>
+    <div id="userremovetable" class="hidden"></div>
     </div>
     <div role="tabpanel" class="tab-pane container" id="groups">
 		<div class="row">
@@ -135,15 +136,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 		<div class="row">
 			<p class="text-warning"><span class="glyphicon glyphicon-question-sign"></span> Is only required for Admins or Managers</u></p>
-			<div class="input-group">
+			<div class="input-group pwCheck  has-feedback">
 			  <span class="input-group-addon" id="passwordAddon">Password</span>
 			  <input type="password" class="form-control" id="Password" placeholder="Password" aria-describedby="passwordAddon">
+			   <span class="hidden glyphicon form-control-feedback"></span>
 			</div>
 		</div>
 		<div class="row">
-			<div class="input-group">
+			<div class="input-group pwCheck  has-feedback">
 			  <span class="input-group-addon" id="spasswordAddon">Password</span>
 			  <input type="password" class="form-control" id="Password2" placeholder="Password" aria-describedby="spasswordAddon">
+			   <span class="hidden glyphicon form-control-feedback"></span>
 			</div>
 		</div>
 		<div class="row">

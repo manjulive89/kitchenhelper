@@ -53,6 +53,7 @@ class Einstellungen extends CI_Model{
 		 * if success if not null
 		 **/
 		public function get($name){
+			if(count($this->settings) > 0){
 				if(isset($this->settings[$name])){
 					return $this->settings[$name];
 				}else{
@@ -70,6 +71,12 @@ class Einstellungen extends CI_Model{
 					$object = new StdClass();
 					$object->content = null;
 				return $object;
+			}else{
+				throw new Exception("Could not init settings array");
+				}
+			}
+		public function getContent($name){
+			return $this->get($name)->content;
 			}
 		/**
 		 * load settings from database

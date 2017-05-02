@@ -137,7 +137,7 @@
 			$this->setMessage($mesg[0]->message);
 			$user = new User();
 			//if sender is NULL its an anoyme post!
-			if($mesg[0]->sender == null OR $mesg[0]->sender == 0){
+			if($mesg[0]->sender == null OR $mesg[0]->sender == 0 OR $mesg[0]->sender == -1){
 				$user->setAnonyme(true);
 			}
 			$this->setSender($user->create($mesg[0]->sender));
@@ -152,7 +152,8 @@
 	   public function save(){
 		   $this->CI->load->database();
 		   $db = $this->CI->db;
-			   $db->set("sender",$this->getSender()->getID());
+		   $sID = $this->getSender()->getID();
+			   $db->set("sender",$sID);
 			   $db->set("title",$this->getTitle());
 			   $db->set("message",$this->getMessage());
 			   $db->set("seen",$this->isSeen());

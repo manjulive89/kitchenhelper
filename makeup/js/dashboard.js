@@ -334,7 +334,7 @@
 									 var user = {//create empty user
 										 name:$name,
 										 surname:$surname,
-										 email:"casual"+Math.round((Math.random()*100000))+"@outwardbound.org.au",
+										 email:"casual"+Math.round((Math.random()*100000))+"@"+OBAClass.getSettings("mail"),
 										 group:{name:"Casuals"}
 										 }
 										$("#mealTimes").html("");
@@ -359,7 +359,7 @@
 									 var user = {
 										 name:$name,
 										 surname:$surname,
-										 email:"obaguest"+Math.round((Math.random()*100000))+"@outwardbound.org.au",
+										 email:"obaguest"+Math.round((Math.random()*100000))+"@"+OBAClass.getSettings("mail"),
 										 group:{name:"Guests"}
 										 }
 									$("#mealTimes").html("");
@@ -553,7 +553,7 @@
 													r.requestDiets();
 													user = r.getUsers(user.id);
 										 },"modal-lg");
-										 $("#showedit").click(function(){
+										 $(".modal-dialog").on("click","#showedit",function(){
 											 OBAClass.toggle(this);
 											 });
 											/**
@@ -574,8 +574,11 @@
 													OBAdata.loadSheets = false;
 													r.requestUsers();
 													r.requestDiets();
-													$(".modal-body").html(buildDiatPage());
-													OBAClass.updated();
+													$(".modal-body").html("Update...");
+														$( "body" ).on("loadUser", function() {
+															$(".modal-body").html(buildDiatPage());
+															OBAClass.updated();
+														});
 													});
 												});
 											//add
@@ -592,8 +595,12 @@
 															OBAdata.loadSheets = false;
 															r.requestUsers();
 															r.requestDiets();
-															$(".modal-body").html(buildDiatPage());
-															OBAClass.updated();
+															$(".modal-body").html("Update...");
+																$( "body" ).on("loadDiets", function() {
+																	user = r.getUsers(user.id);
+																	$(".modal-body").html(buildDiatPage());
+																	OBAClass.updated();
+																});
 															});
 													}				
 								
