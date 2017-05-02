@@ -64,11 +64,13 @@ $route['backend/messages/pdf/(:num)'] = 'messages_backend/pdf/$1';
 $route['backend/notifications'] = 'notifications';
 $route['backend/user'] = 'user';
 $route['backend/settings'] = 'settings';
+$route['backend/test/(:any)'] = 'cronjob/dojob/$1';
 $route['backend/mealplanner'] = 'mealplanner';
 $route['backend/messages/show/(:num)'] = 'messages_backend/show/$1';
 $route['backend/export/sheet/pdf/week/sheet_(:num).pdf'] = 'export/weekpdf/$1';
 $route['backend/export/sheet/pdf/month/sheet_(:num).pdf'] = 'export/monthpdf/$1';
 $route['backend/export/sheet/excel/month/sheet_(:num).xls'] = 'export/monthexcel/$1';
+
 /**
  * #############################################################
  * 							JSON API

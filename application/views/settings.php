@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<br>		
 		<div class="input-group">
 		  <span class="input-group-addon" id="LogoUrl">Logo Url</span>
-		  <input type="text" class="form-control" name="LogoUrl" placeholder="http://localhost/images/logo.png" value="<?php if(property_exists($LogoUrl,"content")){echo $LogoUrl->content;}?>"  aria-describedby="LogoUrl">
+		  <input type="text" class="form-control" name="LogoUrl" placeholder="http://localhost/images/logo.png" value="<?php if(isset($LogoUrl)){if(property_exists($LogoUrl,"content")){echo $LogoUrl->content;}}?>"  aria-describedby="LogoUrl">
 		</div>
 		<br>		
 		<div class="input-group">

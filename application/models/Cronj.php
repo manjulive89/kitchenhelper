@@ -154,7 +154,7 @@ public function checkMealplan(){
 			    file_put_contents($acrhivePath.$filename."_month_".date("n").".pdf",Export::mpdf(date("n"),$pdf,$this->container)->Output("S"));
 				echo "[".date("d.m.Y H:i:s")."] Saved: ".$acrhivePath.$filename."_month_".$date.".pdf\n";
 			   }else{
-				   "[".date("d.m.Y H:i:s")."] Cannot write in Path: ".$acrhivePath." please change the rights\n";
+				   echo "[".date("d.m.Y H:i:s")."] Cannot write in Path: ".$acrhivePath." please change the rights\n";
 				   }
         }
 	

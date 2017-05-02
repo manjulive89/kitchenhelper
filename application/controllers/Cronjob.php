@@ -48,6 +48,25 @@
 		   $this->load->model("cronj");
 		   $this->cronj->genArchive();
 		   }
+	  public function dojob($job){
+		  //double checking!
+		  $this->load->model("login");
+		  if(Login::checkUser()->getRole() == 0){
+			  echo "No Access";
+			 return false;
+			 }
+		  switch($job){
+			  case "archive":
+			  $this->genArchive();
+			  break;
+			  case "updatemealplan":
+			  $this->checkMealplan();
+			  break;
+			  case "cleanDB":
+			  $this->cleanDB();
+			  break;
+			  }
+		  }
 
 }
 
