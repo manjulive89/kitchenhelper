@@ -175,7 +175,6 @@ OBA = function(){
 			ht = this.getHelptext();
 			$.each(ht,function(index,value){
 				$.each(value.data,function(key,content){
-					t
 					$("."+key).html(content.content);
 					})
 				});

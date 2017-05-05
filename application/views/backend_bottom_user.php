@@ -47,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	OBAClass.time("#time",30);
 	OBAClass.date("#date",1);
 	var r = new Requests();
-	r.setBaseUrl("http://localhost/outwardbound/");
+	r.setBaseUrl("<?php echo $base_url->content;?>");
 	r.requestSheetsDiets();//ini only on Signoffsheet page
 	r.requestUsers();//ini later only on User Page
 	r.requestHelpTexts();

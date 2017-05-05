@@ -44,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	OBAClass.date("#date",1);
 	OBAClass.loader("#mealTimes");
 	var r = new Requests();
-	r.setBaseUrl("http://localhost/outwardbound/");
+	r.setBaseUrl("<?php echo $base_url->content;?>");
 	r.setType("frontend/");
 	r.requestSettings();
 	r.requestMessages();
